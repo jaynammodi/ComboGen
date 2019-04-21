@@ -18,7 +18,7 @@
 
 ## Changelog
 
-### v1.2 No Updates Yet
+### v1.0 No Updates Yet
 
 ### Regards,
 ### @voldemort1912!🖖🏻
