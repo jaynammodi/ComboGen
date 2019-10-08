@@ -3,11 +3,18 @@
 
 # ComboGen
 - ~~Combo List Generator v1.0 (Uploaded on 21/04/2019 1700 IST)~~
-- Combo List Generator v2.0 (Updated on 14/07/2019 0010 IST)
+- ~~Combo List Generator v2.0 (Updated on 14/07/2019 0010 IST)~~
+- Combo List Generator v3.0 (Update on 08/10/2019 14:15 IST)
 
 ## For Educational Purposes Only!!
 #### I Will Not be Responsible for Any Kind of Problems That Arise due to Unfair Usage!!
 ###### P.S. You Know What I Mean! xD
+
+## v3.0 Release Notes
+* ***Added DuckDuckGo Scraping.***
+* Stability & Performance Improvements.
+* Minor Bug Fixes.
+* DuckDuckGo Scraping is MUCH faster than Google & is also Potentially Ban-Free. If you Wish to Scrape a Large Number of Keywords, Use DDG only.
 
 ## v2.0 Release Notes
 * Switched to ***Python***. (PHP is Old & Obsolete)
@@ -32,6 +39,12 @@
 * Join the Group at [@VoldemortCommunity](https://t.me/VoldemortCommunity) (Telegram)
 
 ## Changelog
+
+### v3.0
+
+- Added DuckDuckGo Scraping.
+- Stability & Performance Improvements.
+- Minor Bug Fixes.
 
 ### v2.0 
 
