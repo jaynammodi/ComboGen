@@ -4,7 +4,8 @@
 # ComboGen
 - ~~Combo List Generator v1.0 (Uploaded on 21/04/2019 1700 IST)~~
 - ~~Combo List Generator v2.0 (Updated on 14/07/2019 0010 IST)~~
-- Combo List Generator v3.0 (Update on 08/10/2019 14:15 IST)
+- ~~Combo List Generator v3.0 (Updated on 08/10/2019 14:15 IST)~~
+- Combo List Generator v3.1 (Updated on 13/10/2019 2:32 IST)
 
 ## For Educational Purposes Only!!
 #### I Will Not be Responsible for Any Kind of Problems That Arise due to Unfair Usage!!
@@ -39,6 +40,10 @@
 * Join the Group at [@VoldemortCommunity](https://t.me/VoldemortCommunity) (Telegram)
 
 ## Changelog
+
+### v3.1
+
+- Fixed a Minor Bug (cssselect)
 
 ### v3.0
 
