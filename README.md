@@ -6,7 +6,7 @@
 - ~~Combo List Generator v2.0 (Updated on 14/07/2019 00:10 IST)~~
 - ~~Combo List Generator v3.0 (Updated on 08/10/2019 14:15 IST)~~
 - ~~Combo List Generator v3.1 (Updated on 13/10/2019 2:32 IST)~~
-- Combo List Generator v3.2 (Updated on 01/12/2019 17:00 IST)
+- Combo List Generator v3.2 (Updated on 01/12/2019 16:16 IST)
 
 ## For Educational Purposes Only!!
 #### I Will Not be Responsible for Any Kind of Problems That Arise due to Unfair Usage!!
