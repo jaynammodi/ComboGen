@@ -2,10 +2,11 @@
 <a href="https://t.me/VoldemortCommunity"><img src="https://img.shields.io/badge/Telegram-Group-blue.svg?logo=Telegram"></a>
 
 # ComboGen
-- ~~Combo List Generator v1.0 (Uploaded on 21/04/2019 1700 IST)~~
-- ~~Combo List Generator v2.0 (Updated on 14/07/2019 0010 IST)~~
+- ~~Combo List Generator v1.0 (Uploaded on 21/04/2019 17:00 IST)~~
+- ~~Combo List Generator v2.0 (Updated on 14/07/2019 00:10 IST)~~
 - ~~Combo List Generator v3.0 (Updated on 08/10/2019 14:15 IST)~~
-- Combo List Generator v3.1 (Updated on 13/10/2019 2:32 IST)
+- ~~Combo List Generator v3.1 (Updated on 13/10/2019 2:32 IST)~~
+- Combo List Generator v3.2 (Updated on 01/12/2019 17:00 IST)
 
 ## For Educational Purposes Only!!
 #### I Will Not be Responsible for Any Kind of Problems That Arise due to Unfair Usage!!
@@ -41,9 +42,14 @@
 
 ## Changelog
 
+### v3.2
+
+- "Syntax Error" due to Python Upgradation to Python 3.8 Fixed.
+- Minor Bug Fixed.
+
 ### v3.1
 
-- Fixed a Minor Bug (cssselect)
+- Fixed a Minor Bug (cssselect).
 
 ### v3.0
 
@@ -51,7 +57,7 @@
 - Stability & Performance Improvements.
 - Minor Bug Fixes.
 
-### v2.0 
+### v2.0
 
 - Switched to Python. (PHP is Old & Obsolete)
 - Much MUCH Faster than the Previous Version.
