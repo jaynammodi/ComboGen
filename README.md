@@ -75,7 +75,7 @@
 ## HOW TO USE!!
 * Open a Terminal & Run `pkg update && pkg upgrade && pkg install git python -y`
 * Next, Run `git clone https://github.com/VoldemortCommunity/ComboGen`
-* Navigate to the Newly Created SpotifyChecker Directory using `cd ComboGen`
+* Navigate to the Newly Created ComboGen Directory using `cd ComboGen`
 * To Start the Program Use `python combogen`
 * It Will Automatically Install Dependencies & Configure Everything on the First Run. Grant Storage Permissions for Android 7.0 & Higher if Prompted to do So.
 * Follow the Onscreen Instructions
