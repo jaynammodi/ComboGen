@@ -84,7 +84,7 @@
 
 ## Donate
 
-- <img src="https://img.shields.io/badge/Donate-BTC-brightgreen.svg?logo=Bitcoin"> : `3BJghXSoE82JP1ioSKBUqTZ5mdJJTQd2e3`
+- <img src="https://img.shields.io/badge/Donate-BTC-brightgreen.svg?logo=Bitcoin"> : `bc1qc8qkn0tzuzzknuxwmxskdgyynf2cwmnjg9c7cj`
 
 ## To-Do
 
