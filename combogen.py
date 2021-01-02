@@ -128,6 +128,9 @@ class l11lllll:
 			l111111 = link[0:l11llll1]
 			if l1 (u"ࠩ࡫ࡸࡹࡶࡳ࠻࠱࠲ࡴࡦࡹࡴࡦࡤ࡬ࡲ࠳ࡩ࡯࡮࠱ࡸ࠳ࠬ࠶") not in l111111:
 				l11l1.append(link[0:l11llll1])
+	def I1(self, li):
+		i1 = list(dict.fromkeys(li))
+		return i1
 	def l1l11l(self, l1l1lll):
 		self.l1ll1lll()
 		self.ll()
@@ -417,7 +420,7 @@ try:
 			print(Fore.GREEN + Style.DIM + l1 (u"ࠧࠡ࡞ࡱࠤࡃࠦࡓ࡬࡫ࡳࡴ࡮ࡴࡧࠡࡔࡨࡷࡹࠦ࡯ࡧࠢࡷ࡬ࡪࠦࡋࡦࡻࡺࡳࡷࡪࡳ࠯ࠩࣸ"))
 			break
 	print(Fore.GREEN + Style.NORMAL + l1 (u"ࠨࠢࡁࠤࡘࡩࡲࡢࡲ࡬ࡲ࡬ࠦࡃࡰ࡯ࡳࡰࡪࡺࡥ࠯ࣹࠢࠪ") + Fore.CYAN + Style.BRIGHT + str(len(l11l1)) + Fore.GREEN + Style.NORMAL + l1 (u"࡙ࠩࠣࡗࡒࡳࠡࡈࡲࡹࡳࡪ࠮ࠨࣺ"))
-	l11l1 = l1l111ll.l1l1l111(l11l1)
+	l11l1 = l1ll1l11.I1(l11l1)
 	print(Fore.GREEN + Style.NORMAL + l1 (u"ࠪࠤࡃࠦࡃ࡭ࡧࡤࡲ࡮ࡴࡧࠡࡗࡕࡐࡸࠦࠦࠡࡔࡨࡱࡴࡼࡩ࡯ࡩࠣࡈࡺࡶ࡬ࡪࡥࡤࡸࡪࡹ࠮ࠡࠩࣻ") + Fore.CYAN + Style.BRIGHT + str(len(l11l1)) + Fore.GREEN + Style.NORMAL + l1 (u"࡛ࠫࠥࡒࡍࡵࠣࡖࡪࡳࡡࡪࡰ࠱ࠫࣼ"))
 	l111lll = input(Fore.GREEN + Style.BRIGHT + l1 (u"ࠬࠦ࠾ࠡࡒࡵࡩࡸࡹࠠࡆࡰࡷࡩࡷࠦࡴࡰࠢࡅࡩ࡬࡯࡮ࠡࡎࡨࡩࡨ࡮ࡩ࡯ࡩ࠱ࠫࣽ") + Style.RESET_ALL)
 	l11lll = l11l1ll1(l11ll11)
