@@ -1,6 +1,6 @@
 <a href="https://www.python.org/download/releases/3.0/"><IMG src="https://img.shields.io/pypi/pyversions/3.svg?label=Python&logo=python"></a>
 <a href="https://t.me/VoldemortCommunity"><img src="https://img.shields.io/badge/Telegram-Group-blue.svg?logo=Telegram"></a>
-
+## IMPORTANT : Authentication Keys can be Purchased at 5$. Contact me on [Telegram](https://t.me/hewhomustn0tbenamed) for the same.
 # ComboGen
 - ~~Combo List Generator v1.0 (Uploaded on 21/04/2019 17:00 IST)~~
 - ~~Combo List Generator v2.0 (Updated on 14/07/2019 00:10 IST)~~
