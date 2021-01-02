@@ -8,17 +8,24 @@
 - ~~Combo List Generator v3.1 (Updated on 13/10/2019 2:32 IST)~~
 - ~~Combo List Generator v3.2 (Updated on 01/12/2019 16:16 IST)~~
 - ~~Combo List Generator v3.3 (Updated on 23/05/2020 22:43 IST)~~
-- Combo List Generator v3.4 (Updated on 25/08/2020 23:27 IST)
+- ~~Combo List Generator v3.4 (Updated on 25/08/2020 23:27 IST)~~
+- Combo List Generator v4.0 (Updated on 03/01/2021 02:15 IST)
 
 ## For Educational Purposes Only!!
 #### I Will Not be Responsible for Any Kind of Problems That Arise due to Unfair Usage!!
 ###### P.S. You Know What I Mean! xD
 
+## v4.0 Release Notes
+* ***Google Scraping Fixed.***
+* Added ***Login & Authentication System.***
+* ***Major*** Bug Fixes.
+* Stability & Performance Improvements.
+
 ## v3.0 Release Notes
-* ***Added DuckDuckGo Scraping.***
+* ~~***Added DuckDuckGo Scraping.***~~
 * Stability & Performance Improvements.
 * Minor Bug Fixes.
-* DuckDuckGo Scraping is MUCH faster than Google & is also Potentially Ban-Free. If you Wish to Scrape a Large Number of Keywords, Use DDG only.
+* ~~DuckDuckGo Scraping is MUCH faster than Google & is also Potentially Ban-Free. If you Wish to Scrape a Large Number of Keywords, Use DDG only.~~
 
 ## v2.0 Release Notes
 * Switched to ***Python***. (PHP is Old & Obsolete)
@@ -43,6 +50,11 @@
 * Join the Group at [@VoldemortCommunity](https://t.me/VoldemortCommunity) (Telegram)
 
 ## Changelog
+
+### v4.0
+
+- Google Scraping Fixed.
+- Added Login & Authentication System.
 
 ### v3.4
 
@@ -89,7 +101,7 @@
 * Open a Terminal & Run `pkg update && pkg upgrade && pkg install git python -y`
 * Next, Run `git clone https://github.com/VoldemortCommunity/ComboGen`
 * Navigate to the Newly Created ComboGen Directory using `cd ComboGen`
-* To Start the Program Use `python combogen`
+* To Start the Program Use `python combogen.py`
 * It Will Automatically Install Dependencies & Configure Everything on the First Run. Grant Storage Permissions for Android 7.0 & Higher if Prompted to do So.
 * Follow the Onscreen Instructions
 * Make Sure you move the Keywords File to Internal Storage/VoldemortCommunity/ComboGen/Keywords
