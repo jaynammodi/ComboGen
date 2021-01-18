@@ -10,7 +10,7 @@
 - ~~Combo List Generator v3.3 (Updated on 23/05/2020 22:43 IST)~~
 - ~~Combo List Generator v3.4 (Updated on 25/08/2020 23:27 IST)~~
 - ~~Combo List Generator v4.0 (Updated on 03/01/2021 02:15 IST)~~
-- Combo List Generator v4.1 (Updated on 18/01/2021 23:44 IST)
+- Combo List Generator v4.0 (Updated on 18/01/2021 23:44 IST)
 
 ## For Educational Purposes Only!!
 #### I Will Not be Responsible for Any Kind of Problems That Arise due to Unfair Usage!!

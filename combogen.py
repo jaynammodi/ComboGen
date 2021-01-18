@@ -262,11 +262,11 @@ def l1llll1():
 		if not os.path.isdir(l1l1ll + l111lll1 (u"࠭ࡳࡵࡱࡵࡥ࡬࡫࠯ࡴࡪࡤࡶࡪࡪ࠯ࡗࡱ࡯ࡨࡪࡳ࡯ࡳࡶࡆࡳࡲࡳࡵ࡯࡫ࡷࡽ࠴ࡉ࡯࡮ࡤࡲࡋࡪࡴ࠯ࡑࡴࡲࡼࡾࡒࡩࡴࡶࡶࠫ࢕")):
 			os.makedirs(l1l1ll + l111lll1 (u"ࠧࡴࡶࡲࡶࡦ࡭ࡥ࠰ࡵ࡫ࡥࡷ࡫ࡤ࠰ࡘࡲࡰࡩ࡫࡭ࡰࡴࡷࡇࡴࡳ࡭ࡶࡰ࡬ࡸࡾ࠵ࡃࡰ࡯ࡥࡳࡌ࡫࡮࠰ࡒࡵࡳࡽࡿࡌࡪࡵࡷࡷࠬ࢖"))
 def l1l11l11():
-	l1lllll = l1l1111 (u"ࠨࡣࡋࡖ࠵ࡩࡈࡎ࠸ࡏࡽ࠾ࡽ࡙࡙ࡐ࠳࡞࡜ࡐࡰࡣ࡫࠸࡮ࡧ࠸࠰ࡷࡥࡰࡊ࠸ࡒ࠲ࡓࡇࡐ࡜ࡓࡗࡔࡆࡌ࠷ࡇ࡬ࡃ࠽ࠨࢗ") #l1l1lll://l1lllll.l1llll.l1l111/l1lll11/9feb808d806d23622be56559c4bc8334/raw/l11ll1ll
+	gist = b'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2REMXNQTEJ4Cg==' #l1l1lll://l1lllll.l1llll.l1l111/l1lll11/9feb808d806d23622be56559c4bc8334/raw/l11ll1ll
 	print(Fore.RED + Style.BRIGHT + l111lll1 (u"ࠩࠣࡂࠥࡇࡵࡵࡪࡲࡶ࡮ࢀࡡࡵ࡫ࡲࡲࠥࡘࡥࡲࡷ࡬ࡶࡪࡪ࠮ࠡࡒ࡯ࡩࡦࡹࡥࠡࡘࡨࡶ࡮࡬ࡹ࡛ࠡࡲࡹࡷࠦࡃࡳࡧࡧࡩࡳࡺࡩࡢ࡮ࡶ࠲ࠬ࢘"))
 	uname = input(Fore.GREEN + Style.DIM + l111lll1 (u"ࠪࠤࡃࠦࡕࡴࡧࡵࡲࡦࡳࡥࠡ࠼࢙ࠣࠫ") + Fore.RESET + Style.DIM)
 	pwd = hashlib.sha256(getpass.getpass(Fore.GREEN + Style.DIM + l111lll1 (u"ࠫࠥࡄࠠࡑࡣࡶࡷࡼࡵࡲࡥࠢ࠽ࠤ࢚ࠬ") + Fore.RESET + Style.DIM).encode(l111lll1 (u"ࠬࡧࡳࡤ࡫࡬࢛ࠫ"))).hexdigest()
-	l11l11l1 = requests.get(base64.b64decode(l1lllll).decode(l111lll1 (u"࠭ࡡࡴࡥ࡬࡭ࠬ࢜"))).text
+	l11l11l1 = requests.get(base64.b64decode(gist).decode(l111lll1 (u"࠭ࡡࡴࡥ࡬࡭ࠬ࢜"))).text
 	for x in l11l11l1.split(l111lll1 (u"ࠧ࡝ࡰࠪ࢝")):
 		if uname in x:
 			if pwd == x.split(l111lll1 (u"ࠣ࠼ࠥ࢞"))[1]:
