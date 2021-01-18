@@ -1,6 +1,6 @@
 <a href="https://www.python.org/download/releases/3.0/"><IMG src="https://img.shields.io/pypi/pyversions/3.svg?label=Python&logo=python"></a>
 <a href="https://t.me/VoldemortCommunity"><img src="https://img.shields.io/badge/Telegram-Group-blue.svg?logo=Telegram"></a>
-## IMPORTANT : Authentication Keys can be Purchased at 5$. Contact me on [Telegram](https://t.me/hewhomustn0tbenamed) for the same.
+
 # ComboGen
 - ~~Combo List Generator v1.0 (Uploaded on 21/04/2019 17:00 IST)~~
 - ~~Combo List Generator v2.0 (Updated on 14/07/2019 00:10 IST)~~
@@ -9,7 +9,8 @@
 - ~~Combo List Generator v3.2 (Updated on 01/12/2019 16:16 IST)~~
 - ~~Combo List Generator v3.3 (Updated on 23/05/2020 22:43 IST)~~
 - ~~Combo List Generator v3.4 (Updated on 25/08/2020 23:27 IST)~~
-- Combo List Generator v4.0 (Updated on 03/01/2021 02:15 IST)
+- ~~Combo List Generator v4.0 (Updated on 03/01/2021 02:15 IST)~~
+- Combo List Generator v4.0 (Updated on 18/01/2021 23:44 IST)
 
 ## For Educational Purposes Only!!
 #### I Will Not be Responsible for Any Kind of Problems That Arise due to Unfair Usage!!
@@ -50,6 +51,10 @@
 * Join the Group at [@VoldemortCommunity](https://t.me/VoldemortCommunity) (Telegram)
 
 ## Changelog
+
+### v4.1
+
+- Migrated Authentication Servers.
 
 ### v4.0
 
@@ -101,7 +106,7 @@
 * Open a Terminal & Run `pkg update && pkg upgrade && pkg install git python -y`
 * Next, Run `git clone https://github.com/VoldemortCommunity/ComboGen`
 * Navigate to the Newly Created ComboGen Directory using `cd ComboGen`
-* To Start the Program Use `python combogen.py`
+* To Start the Program Use `python combogen`
 * It Will Automatically Install Dependencies & Configure Everything on the First Run. Grant Storage Permissions for Android 7.0 & Higher if Prompted to do So.
 * Follow the Onscreen Instructions
 * Make Sure you move the Keywords File to Internal Storage/VoldemortCommunity/ComboGen/Keywords
