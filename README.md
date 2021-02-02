@@ -1,8 +1,8 @@
-# Voldemort's Newsletter, [1/3/21, 3:00 AM]
 ## IMPORTANT, PLEASE READ.
 ComboGen has been Updated to v4.0 all thanks to @Nube46's Donation. It's no longer free to use and has an authentication system as per his request. Anybody willing to purchase a subscription can do so for 5$. Contact me, [@hewhomustn0tbenamed (Telegram)](https://t.me/hewhomustn0tbenamed) to purchase.
 
 In Addition to the Current Mechanism, another algorithm will be implemented soon allowing users to send upto 600 requests per month for free. After which paid subscriptions can be purchased as per their desire. This program will be available soon under a different name. To protect the integrity and assure a long service, limited one time authentication tokens will be handed out that register a device. PM me [@hewhomustn0tbenamed (Telegram)](https://t.me/hewhomustn0tbenamed) to reserve yours.
+
 <a href="https://www.python.org/download/releases/3.0/"><IMG src="https://img.shields.io/pypi/pyversions/3.svg?label=Python&logo=python"></a>
 <a href="https://t.me/VoldemortCommunity"><img src="https://img.shields.io/badge/Telegram-Group-blue.svg?logo=Telegram"></a>
 
