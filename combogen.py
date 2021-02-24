@@ -1,19 +1,19 @@
 # coding: UTF-8
 import sys
-l111lll = sys.version_info [0] == 2
-l1l1l = 2048
-l11ll = 7
-def l111lll1 (l1):
-    global l1ll11l
-    l1ll111 = ord (l1 [-1])
-    l11ll11l = l1 [:-1]
-    l11111l = l1ll111 % len (l11ll11l)
-    l11l1ll1 = l11ll11l [:l11111l] + l11ll11l [l11111l:]
-    if l111lll:
-        l11l1l1 = unicode () .join ([unichr (ord (char) - l1l1l - (l1ll1l + l1ll111) % l11ll) for l1ll1l, char in enumerate (l11l1ll1)])
+l1lll1ll = sys.version_info [0] == 2
+l1lll1l1 = 2048
+l11l1l1 = 7
+def l11lllll (l111l11):
+    global l1l11
+    l1l1l1 = ord (l111l11 [-1])
+    l1ll111l = l111l11 [:-1]
+    l1lll1l = l1l1l1 % len (l1ll111l)
+    l1ll1l = l1ll111l [:l1lll1l] + l1ll111l [l1lll1l:]
+    if l1lll1ll:
+        l1l1l1l1 = unicode () .join ([unichr (ord (char) - l1lll1l1 - (l111ll11 + l1l1l1) % l11l1l1) for l111ll11, char in enumerate (l1ll1l)])
     else:
-        l11l1l1 = str () .join ([chr (ord (char) - l1l1l - (l1ll1l + l1ll111) % l11ll) for l1ll1l, char in enumerate (l11l1ll1)])
-    return eval (l11l1l1)
+        l1l1l1l1 = str () .join ([chr (ord (char) - l1lll1l1 - (l111ll11 + l1l1l1) % l11l1l1) for l111ll11, char in enumerate (l1ll1l)])
+    return eval (l1l1l1l1)
 while 1:
 	try:
 		import sys, time, os, re, colorama, requests, random, bs4, threading, lxml, base64, getpass, hashlib
@@ -27,411 +27,412 @@ while 1:
 		from lxml import html
 		break
 	except ImportError:
-		print(l111lll1 (u"ࠫࠥࡄࠠࡑ࡮ࡨࡥࡸ࡫ࠠࡘࡣ࡬ࡸࠥ࡝ࡨࡪ࡮ࡨࠤࡹ࡮ࡥࠡࡒࡵࡳ࡬ࡸࡡ࡮ࠢࡌࡲࡸࡺࡡ࡭࡮ࡶࠤࡹ࡮ࡥࠡࡆࡨࡴࡪࡴࡤࡦࡰࡦ࡭ࡪࡹ࠮ࠡࡖࡋࡍࡘࠦࡍࡊࡉࡋࡘ࡚ࠥࡁࡌࡇࠣࡅࠥࡒࡏࡏࡉࠣࡘࡎࡓࡅ࠯ࠩࠀ"))
-		os.system(l111lll1 (u"ࠬࡧࡰࡵࠢࡸࡴࡩࡧࡴࡦࠢࠩࠪࠥࡧࡰࡵࠢࡸࡴ࡬ࡸࡡࡥࡧࠣࠪࠫࠦࡡࡱࡶࠣ࡭ࡳࡹࡴࡢ࡮࡯ࠤࡷࡵ࡯ࡵ࠯ࡵࡩࡵࡵࠠࡶࡰࡶࡸࡦࡨ࡬ࡦ࠯ࡵࡩࡵࡵࠠ࠮ࡻࠪࠁ"))
-		os.system(l111lll1 (u"࠭ࡡࡱࡶࠣ࡭ࡳࡹࡴࡢ࡮࡯ࠤࡨࡲࡡ࡯ࡩࠣࡴࡾࡺࡨࡰࡰࠣࡰ࡮ࡨࡸࡴ࡮ࡷࠤࡱ࡯ࡢࡪࡥࡲࡲࡻࠦ࡬ࡪࡤ࡬ࡧࡴࡴࡶࠡ࠯ࡼࠫࠂ"))
-		os.system(l111lll1 (u"ࠧࡱ࡫ࡳࠤ࡮ࡴࡳࡵࡣ࡯ࡰࠥࡲࡸ࡮࡮ࠪࠃ"))
-		os.system(l111lll1 (u"ࠨࡲ࡬ࡴࠥ࡯࡮ࡴࡶࡤࡰࡱࠦ࠭ࡳࠢࡵࡩࡶࡻࡩࡳࡧࡰࡩࡳࡺࡳࠨࠄ"))
-		os.system(l111lll1 (u"ࠩࡳ࡭ࡵࠦࡩ࡯ࡵࡷࡥࡱࡲࠠࡴࡧ࡯ࡩࡨࡺ࡭ࡦࡰࡸࠤࠬࠅ"))
-		print(l111lll1 (u"ࠪࡠࡳࡢ࡮ࠡࡀࠣࡈࡪࡶࡥ࡯ࡦࡨࡲࡨ࡯ࡥࡴࠢࡌࡲࡸࡺࡡ࡭࡮ࡨࡨ࠳ࠦࡒࡦࡵࡷࡥࡷࡺࡩ࡯ࡩ࠱࠲࠳࠭ࠆ"))
-		os.system(l111lll1 (u"ࠫࡨࡲࡥࡢࡴࠪࠇ"))
+		print(l11lllll (u"ࠫࠥࡄࠠࡑ࡮ࡨࡥࡸ࡫ࠠࡘࡣ࡬ࡸࠥ࡝ࡨࡪ࡮ࡨࠤࡹ࡮ࡥࠡࡒࡵࡳ࡬ࡸࡡ࡮ࠢࡌࡲࡸࡺࡡ࡭࡮ࡶࠤࡹ࡮ࡥࠡࡆࡨࡴࡪࡴࡤࡦࡰࡦ࡭ࡪࡹ࠮ࠡࡖࡋࡍࡘࠦࡍࡊࡉࡋࡘ࡚ࠥࡁࡌࡇࠣࡅࠥࡒࡏࡏࡉࠣࡘࡎࡓࡅ࠯ࠩࠀ"))
+		os.system(l11lllll (u"ࠬࡧࡰࡵࠢࡸࡴࡩࡧࡴࡦࠢࠩࠪࠥࡧࡰࡵࠢࡸࡴ࡬ࡸࡡࡥࡧࠣࠪࠫࠦࡡࡱࡶࠣ࡭ࡳࡹࡴࡢ࡮࡯ࠤࡷࡵ࡯ࡵ࠯ࡵࡩࡵࡵࠠࡶࡰࡶࡸࡦࡨ࡬ࡦ࠯ࡵࡩࡵࡵࠠ࠮ࡻࠪࠁ"))
+		os.system(l11lllll (u"࠭ࡡࡱࡶࠣ࡭ࡳࡹࡴࡢ࡮࡯ࠤࡨࡲࡡ࡯ࡩࠣࡴࡾࡺࡨࡰࡰࠣࡰ࡮ࡨࡸࡴ࡮ࡷࠤࡱ࡯ࡢࡪࡥࡲࡲࡻࠦ࡬ࡪࡤ࡬ࡧࡴࡴࡶࠡ࠯ࡼࠫࠂ"))
+		os.system(l11lllll (u"ࠧࡱ࡫ࡳࠤ࡮ࡴࡳࡵࡣ࡯ࡰࠥࡲࡸ࡮࡮ࠪࠃ"))
+		os.system(l11lllll (u"ࠨࡲ࡬ࡴࠥ࡯࡮ࡴࡶࡤࡰࡱࠦ࠭ࡳࠢࡵࡩࡶࡻࡩࡳࡧࡰࡩࡳࡺࡳࠨࠄ"))
+		os.system(l11lllll (u"ࠩࡳ࡭ࡵࠦࡩ࡯ࡵࡷࡥࡱࡲࠠࡴࡧ࡯ࡩࡨࡺ࡭ࡦࡰࡸࠤࠬࠅ"))
+		print(l11lllll (u"ࠪࡠࡳࡢ࡮ࠡࡀࠣࡈࡪࡶࡥ࡯ࡦࡨࡲࡨ࡯ࡥࡴࠢࡌࡲࡸࡺࡡ࡭࡮ࡨࡨ࠳ࠦࡒࡦࡵࡷࡥࡷࡺࡩ࡯ࡩ࠱࠲࠳࠭ࠆ"))
+		os.system(l11lllll (u"ࠫࡨࡲࡥࡢࡴࠪࠇ"))
 		continue
 colorama.init(autoreset=True)
 l = Lock()
-l1l1llll = []
-l1l1ll = l111lll1 (u"ࠬ࠵ࡤࡢࡶࡤ࠳ࡩࡧࡴࡢ࠱ࡦࡳࡲ࠴ࡴࡦࡴࡰࡹࡽ࠵ࡦࡪ࡮ࡨࡷ࠴࡮࡯࡮ࡧ࠲ࠫࠈ")
-l1l111l1 = l111lll1 (u"࠭࠯ࡥࡣࡷࡥ࠴ࡪࡡࡵࡣ࠲ࡧࡴࡳ࠮ࡵࡧࡵࡱࡺࡾ࠯ࡧ࡫࡯ࡩࡸ࠵ࡨࡰ࡯ࡨ࠳ࡸࡺ࡯ࡳࡣࡪࡩ࠴ࡹࡨࡢࡴࡨࡨ࠴࡜࡯࡭ࡦࡨࡱࡴࡸࡴࡄࡱࡰࡱࡺࡴࡩࡵࡻ࠲ࡇࡴࡳࡢࡰࡉࡨࡲ࠴࠭ࠉ")
-class l11lll11(Exception):
+l1ll = []
+l111111 = l11lllll (u"ࠬ࠵ࡤࡢࡶࡤ࠳ࡩࡧࡴࡢ࠱ࡦࡳࡲ࠴ࡴࡦࡴࡰࡹࡽ࠵ࡦࡪ࡮ࡨࡷ࠴࡮࡯࡮ࡧ࠲ࠫࠈ")
+l11111 = l11lllll (u"࠭࠯ࡥࡣࡷࡥ࠴ࡪࡡࡵࡣ࠲ࡧࡴࡳ࠮ࡵࡧࡵࡱࡺࡾ࠯ࡧ࡫࡯ࡩࡸ࠵ࡨࡰ࡯ࡨ࠳ࡸࡺ࡯ࡳࡣࡪࡩ࠴ࡹࡨࡢࡴࡨࡨ࠴࡜࡯࡭ࡦࡨࡱࡴࡸࡴࡄࡱࡰࡱࡺࡴࡩࡵࡻ࠲ࡇࡴࡳࡢࡰࡉࡨࡲ࠴࠭ࠉ")
+class l1l1lll1(Exception):
 	pass
-class l111l(Exception):
+class l1l1l111(Exception):
 	pass
-class l11l1ll(Exception):
+class l11lll1l(Exception):
 	pass
-class l111ll1(Exception):
+class l111llll(Exception):
 	pass
-class l1l1l1ll(Exception):
+class l1l1l11(Exception):
 	pass
-class l111111(Exception):
+class l1l1l11l(Exception):
 	pass
-class l11l1lll:
-	def __init__(self, l1l111l):
-		self.ll = l1l111l
-		self.l11l111 = {l111lll1 (u"ࠧࡖࡵࡨࡶ࠲ࡇࡧࡦࡰࡷࠫࠊ"):l111lll1 (u"ࠨࡏࡲࡾ࡮ࡲ࡬ࡢ࠱࠸࠲࠵ࠦࠨࡂࡰࡧࡶࡴ࡯ࡤࠡ࠻࠾ࠤࡒࡵࡢࡪ࡮ࡨ࠿ࠥࡸࡶ࠻࠸࠺࠲࠵࠯ࠠࡈࡧࡦ࡯ࡴ࠵࠶࠸࠰࠳ࠤࡋ࡯ࡲࡦࡨࡲࡼ࠴࠼࠷࠯࠲ࠪࠋ"),
-		 l111lll1 (u"ࠩࡄࡧࡨ࡫ࡰࡵࠩࠌ"):l111lll1 (u"ࠪࡸࡪࡾࡴ࠰ࡺࡰࡰ࠱ࡧࡰࡱ࡮࡬ࡧࡦࡺࡩࡰࡰ࠲ࡼࡲࡲࠬࡢࡲࡳࡰ࡮ࡩࡡࡵ࡫ࡲࡲ࠴ࡾࡨࡵ࡯࡯࠯ࡽࡳ࡬࠭ࡶࡨࡼࡹ࠵ࡨࡵ࡯࡯࠿ࡶࡃ࠰࠯࠻࠯ࡸࡪࡾࡴ࠰ࡲ࡯ࡥ࡮ࡴ࠻ࡲ࠿࠳࠲࠽࠲ࡩ࡮ࡣࡪࡩ࠴ࡶ࡮ࡨ࠮࠭࠳࠯ࡁࡱ࠾࠲࠱࠹ࠬࠍ"),
-		 l111lll1 (u"ࠫࡈࡵ࡮࡯ࡧࡦࡸ࡮ࡵ࡮ࠨࠎ"):l111lll1 (u"ࠬࡱࡥࡦࡲ࠰ࡥࡱ࡯ࡶࡦࠩࠏ"),
-		 l111lll1 (u"࠭ࡋࡦࡧࡳ࠱ࡆࡲࡩࡷࡧࠪࠐ"):l111lll1 (u"ࠧ࠲࠳࠸ࠫࠑ"),
-		 l111lll1 (u"ࠨࡃࡦࡧࡪࡶࡴ࠮ࡅ࡫ࡥࡷࡹࡥࡵࠩࠒ"):l111lll1 (u"ࠩࡌࡗࡔ࠳࠸࠹࠷࠼࠱࠶࠲ࡵࡵࡨ࠰࠼ࡀࡷ࠽࠱࠰࠺࠰࠯ࡁࡱ࠾࠲࠱࠻ࠬࠓ"),
-		 l111lll1 (u"ࠪࡅࡨࡩࡥࡱࡶ࠰ࡐࡦࡴࡧࡶࡣࡪࡩࠬࠔ"):l111lll1 (u"ࠫࡪࡴ࠭ࡶࡵ࠯ࡩࡳࡁࡱ࠾࠲࠱࠹ࠬࠕ")}
-		self.l1lll1ll = []
-		self.l1lll1l = 4
-		self.l11l = 6
-		self.cookie = l111lll1 (u"ࠬ࠭ࠖ")
-		self.l11l111 = l111lll1 (u"࠭ࠧࠗ")
-		self.ei = l111lll1 (u"ࠧࠨ࠘")
+class l1llllll:
+	def __init__(self, l1l11l11):
+		self.l111lll = l1l11l11
+		self.l1l1ll1 = {l11lllll (u"ࠧࡖࡵࡨࡶ࠲ࡇࡧࡦࡰࡷࠫࠊ"):l11lllll (u"ࠨࡏࡲࡾ࡮ࡲ࡬ࡢ࠱࠸࠲࠵ࠦࠨࡂࡰࡧࡶࡴ࡯ࡤࠡ࠻࠾ࠤࡒࡵࡢࡪ࡮ࡨ࠿ࠥࡸࡶ࠻࠸࠺࠲࠵࠯ࠠࡈࡧࡦ࡯ࡴ࠵࠶࠸࠰࠳ࠤࡋ࡯ࡲࡦࡨࡲࡼ࠴࠼࠷࠯࠲ࠪࠋ"),
+		 l11lllll (u"ࠩࡄࡧࡨ࡫ࡰࡵࠩࠌ"):l11lllll (u"ࠪࡸࡪࡾࡴ࠰ࡺࡰࡰ࠱ࡧࡰࡱ࡮࡬ࡧࡦࡺࡩࡰࡰ࠲ࡼࡲࡲࠬࡢࡲࡳࡰ࡮ࡩࡡࡵ࡫ࡲࡲ࠴ࡾࡨࡵ࡯࡯࠯ࡽࡳ࡬࠭ࡶࡨࡼࡹ࠵ࡨࡵ࡯࡯࠿ࡶࡃ࠰࠯࠻࠯ࡸࡪࡾࡴ࠰ࡲ࡯ࡥ࡮ࡴ࠻ࡲ࠿࠳࠲࠽࠲ࡩ࡮ࡣࡪࡩ࠴ࡶ࡮ࡨ࠮࠭࠳࠯ࡁࡱ࠾࠲࠱࠹ࠬࠍ"),
+		 l11lllll (u"ࠫࡈࡵ࡮࡯ࡧࡦࡸ࡮ࡵ࡮ࠨࠎ"):l11lllll (u"ࠬࡱࡥࡦࡲ࠰ࡥࡱ࡯ࡶࡦࠩࠏ"),
+		 l11lllll (u"࠭ࡋࡦࡧࡳ࠱ࡆࡲࡩࡷࡧࠪࠐ"):l11lllll (u"ࠧ࠲࠳࠸ࠫࠑ"),
+		 l11lllll (u"ࠨࡃࡦࡧࡪࡶࡴ࠮ࡅ࡫ࡥࡷࡹࡥࡵࠩࠒ"):l11lllll (u"ࠩࡌࡗࡔ࠳࠸࠹࠷࠼࠱࠶࠲ࡵࡵࡨ࠰࠼ࡀࡷ࠽࠱࠰࠺࠰࠯ࡁࡱ࠾࠲࠱࠻ࠬࠓ"),
+		 l11lllll (u"ࠪࡅࡨࡩࡥࡱࡶ࠰ࡐࡦࡴࡧࡶࡣࡪࡩࠬࠔ"):l11lllll (u"ࠫࡪࡴ࠭ࡶࡵ࠯ࡩࡳࡁࡱ࠾࠲࠱࠹ࠬࠕ")}
+		self.l11llll1 = []
+		self.l11l1ll = 4
+		self.l1l1llll = 6
+		self.cookie = l11lllll (u"ࠬ࠭ࠖ")
+		self.l1l1ll1 = l11lllll (u"࠭ࠧࠗ")
+		self.ei = l11lllll (u"ࠧࠨ࠘")
 		self.s = Session()
-		self.s.headers.update(self.l11l111)
-		self.l1l11ll = None
-		self.l1ll1ll = False
-		self.l11l1l = False
-	def l1ll11(self, l1l11lll):
-		l1l1111l = requests.cookies.create_cookie(name=l111lll1 (u"ࠨࡉࡒࡓࡌࡒࡅࡠࡃࡅ࡙ࡘࡋ࡟ࡆ࡚ࡈࡑࡕ࡚ࡉࡐࡐࠪ࠙"), value=l1l11lll)
-		self.s.cookies.set_cookie(l1l1111l)
-		self.l1ll1ll = False
-		self.l11l1l = False
-	def l1lll(self, url):
-		req = Request(l111lll1 (u"ࠩࡊࡉ࡙࠭ࠚ"), url)
+		self.s.headers.update(self.l1l1ll1)
+		self.l1l1ll = None
+		self.l1ll1l11 = False
+		self.l1l111ll = False
+	def l1ll1l1l(self, l1l11ll1):
+		l1l11111 = requests.cookies.create_cookie(name=l11lllll (u"ࠨࡉࡒࡓࡌࡒࡅࡠࡃࡅ࡙ࡘࡋ࡟ࡆ࡚ࡈࡑࡕ࡚ࡉࡐࡐࠪ࠙"), value=l1l11ll1)
+		self.s.cookies.set_cookie(l1l11111)
+		self.l1ll1l11 = False
+		self.l1l111ll = False
+	def l11ll(self, url):
+		req = Request(l11lllll (u"ࠩࡊࡉ࡙࠭ࠚ"), url)
 		prep = req.prepare()
-		l1l1l111 = self.s.send(prep, timeout=30)
-		return l1l1l111
-	def l111ll1l(self):
-		time.sleep(random.choice([self.l1lll1l, self.l11l]))
-	def l11l11l(self):
-		l1l11ll1 = self.l1lll(l111lll1 (u"ࠪ࡬ࡹࡺࡰ࠻࠱࠲ࡻࡼࡽ࠮ࡨࡱࡲ࡫ࡱ࡫࠮ࡤࡱࡰࠫࠛ"))
-		self.l111ll1l()
-		self.l1lll(l111lll1 (u"ࠫ࡭ࡺࡴࡱ࠼࠲࠳ࡼࡽࡷ࠯ࡩࡲࡳ࡬ࡲࡥ࠯ࡥࡲࡱ࠴ࡴࡣࡳࠩࠜ"))
-	def l1l1l11(self):
-		l1l11ll1 = self.l1lll(l111lll1 (u"ࠬ࡮ࡴࡵࡲ࠽࠳࠴ࡽࡷࡸ࠰ࡪࡳࡴ࡭࡬ࡦ࠰ࡦࡳࡲ࠵ࡰࡳࡧࡩࡩࡷ࡫࡮ࡤࡧࡶࡃ࡭ࡲ࠽ࡦࡰࠪࠝ"))
-		soup = BeautifulSoup(l1l11ll1.content, l111lll1 (u"࠭ࡨࡵ࡯࡯࠲ࡵࡧࡲࡴࡧࡵࠫࠞ"))
-		l11l11 = soup.find(l111lll1 (u"ࠧࡪࡰࡳࡹࡹ࠭ࠟ"), {l111lll1 (u"ࠨࡰࡤࡱࡪ࠭ࠠ"): l111lll1 (u"ࠩࡶ࡭࡬࠭ࠡ")})
-		self.l111ll1l()
-		self.l1lll(l111lll1 (u"ࠪ࡬ࡹࡺࡰ࠻࠱࠲ࡻࡼࡽ࠮ࡨࡱࡲ࡫ࡱ࡫࠮ࡤࡱࡰ࠳ࡸ࡫ࡴࡱࡴࡨࡪࡸࡅࡳࡪࡩࡀࠫࠢ") + quote(l11l11[l111lll1 (u"ࠫࡻࡧ࡬ࡶࡧࠪࠣ")]) + l111lll1 (u"ࠬࠬࡨ࡭࠿ࡨࡲࠫࡲࡲ࠾࡮ࡤࡲ࡬ࡥࡥ࡯ࠨࡶࡥ࡫࡫ࡵࡪ࠿࡬ࡱࡦ࡭ࡥࡴࠨࡶࡹ࡬࡭࡯࡯࠿࠵ࠪࡳ࡫ࡷࡸ࡫ࡱࡨࡴࡽ࠽࠱ࠨࡱࡹࡲࡃ࠱࠱࠲ࠩࡵࡂࠬࡰࡳࡧࡹࡁ࡭ࡺࡴࡱࠧ࠶ࡅࠪ࠸ࡆࠦ࠴ࡉࡻࡼࡽ࠮ࡨࡱࡲ࡫ࡱ࡫࠮ࡤࡱࡰࠩ࠷ࡌࠦࡴࡷࡥࡱ࡮ࡺ࠲࠾ࡕࡤࡺࡪ࠱ࡐࡳࡧࡩࡩࡷ࡫࡮ࡤࡧࡶ࠯ࠬࠤ"))
-	def l111l11(self, l111ll=None):
+		l1lll1 = self.s.send(prep, timeout=30)
+		return l1lll1
+	def l11ll1l1(self):
+		time.sleep(random.choice([self.l11l1ll, self.l1l1llll]))
+	def l11ll1l(self):
+		l1l111 = self.l11ll(l11lllll (u"ࠪ࡬ࡹࡺࡰ࠻࠱࠲ࡻࡼࡽ࠮ࡨࡱࡲ࡫ࡱ࡫࠮ࡤࡱࡰࠫࠛ"))
+		self.l11ll1l1()
+		self.l11ll(l11lllll (u"ࠫ࡭ࡺࡴࡱ࠼࠲࠳ࡼࡽࡷ࠯ࡩࡲࡳ࡬ࡲࡥ࠯ࡥࡲࡱ࠴ࡴࡣࡳࠩࠜ"))
+	def l11ll1ll(self):
+		l1l111 = self.l11ll(l11lllll (u"ࠬ࡮ࡴࡵࡲ࠽࠳࠴ࡽࡷࡸ࠰ࡪࡳࡴ࡭࡬ࡦ࠰ࡦࡳࡲ࠵ࡰࡳࡧࡩࡩࡷ࡫࡮ࡤࡧࡶࡃ࡭ࡲ࠽ࡦࡰࠪࠝ"))
+		soup = BeautifulSoup(l1l111.content, l11lllll (u"࠭ࡨࡵ࡯࡯࠲ࡵࡧࡲࡴࡧࡵࠫࠞ"))
+		l1lll = soup.find(l11lllll (u"ࠧࡪࡰࡳࡹࡹ࠭ࠟ"), {l11lllll (u"ࠨࡰࡤࡱࡪ࠭ࠠ"): l11lllll (u"ࠩࡶ࡭࡬࠭ࠡ")})
+		self.l11ll1l1()
+		self.l11ll(l11lllll (u"ࠪ࡬ࡹࡺࡰ࠻࠱࠲ࡻࡼࡽ࠮ࡨࡱࡲ࡫ࡱ࡫࠮ࡤࡱࡰ࠳ࡸ࡫ࡴࡱࡴࡨࡪࡸࡅࡳࡪࡩࡀࠫࠢ") + quote(l1lll[l11lllll (u"ࠫࡻࡧ࡬ࡶࡧࠪࠣ")]) + l11lllll (u"ࠬࠬࡨ࡭࠿ࡨࡲࠫࡲࡲ࠾࡮ࡤࡲ࡬ࡥࡥ࡯ࠨࡶࡥ࡫࡫ࡵࡪ࠿࡬ࡱࡦ࡭ࡥࡴࠨࡶࡹ࡬࡭࡯࡯࠿࠵ࠪࡳ࡫ࡷࡸ࡫ࡱࡨࡴࡽ࠽࠱ࠨࡱࡹࡲࡃ࠱࠱࠲ࠩࡵࡂࠬࡰࡳࡧࡹࡁ࡭ࡺࡴࡱࠧ࠶ࡅࠪ࠸ࡆࠦ࠴ࡉࡻࡼࡽ࠮ࡨࡱࡲ࡫ࡱ࡫࠮ࡤࡱࡰࠩ࠷ࡌࠦࡴࡷࡥࡱ࡮ࡺ࠲࠾ࡕࡤࡺࡪ࠱ࡐࡳࡧࡩࡩࡷ࡫࡮ࡤࡧࡶ࠯ࠬࠤ"))
+	def l11l1l1l(self, l1l111l1=None):
 		while 1:
 			try:
-				l1ll1ll1 = l111lll1 (u"࠭ࡨࡵࡶࡳ࠾࠴࠵ࡷࡸࡹ࠱࡫ࡴࡵࡧ࡭ࡧ࠱ࡧࡴࡳ࠯ࡴࡧࡤࡶࡨ࡮࠿ࡲ࠿ࠪࠥ") + str(quote(self.ll)) + l111lll1 (u"ࠧࠧࡶࡥࡷࡂࡷࡤࡳ࠼ࠪࠦ") + l111ll + l111lll1 (u"ࠨࠨࡱࡹࡲࡃ࠱࠱࠲ࠩ࡬ࡱࡃࡥ࡯ࠨࡥ࡭ࡼࡃ࠱࠳࠺࠳ࠪࡧ࡯ࡨ࠾࠸࠴࠶ࠫࡶࡲ࡮ࡦࡀ࡭ࡻࡴࡳࠧࡧ࡬ࡁࠬࠧ") + str(quote(self.ei)) + l111lll1 (u"ࠩࠩࡷࡦࡃࡎࠨࠨ")
-				l1l11ll1 = self.l1lll(l1ll1ll1)
-				soup = BeautifulSoup(l1l11ll1.text, l111lll1 (u"ࠪ࡬ࡹࡳ࡬࠯ࡲࡤࡶࡸ࡫ࡲࠨࠩ"))
-				l1l1l1l = soup.findAll(l111lll1 (u"ࠫ࡫ࡵࡲ࡮ࠩࠪ"))
-				if not l1l1l1l is not None:
-					if l1l1l1l != []:
-						if l1l1l1l[0][l111lll1 (u"ࠬ࡯ࡤࠨࠫ")] == l111lll1 (u"࠭ࡣࡢࡲࡷࡧ࡭ࡧ࠭ࡧࡱࡵࡱࠬࠬ"):
-							raise l11lll11
-				links = soup.findAll(l111lll1 (u"ࠧࡢࠩ࠭"))
+				l111ll1l = l11lllll (u"࠭ࡨࡵࡶࡳ࠾࠴࠵ࡷࡸࡹ࠱࡫ࡴࡵࡧ࡭ࡧ࠱ࡧࡴࡳ࠯ࡴࡧࡤࡶࡨ࡮࠿ࡲ࠿ࠪࠥ") + str(quote(self.l111lll)) + l11lllll (u"ࠧࠧࡶࡥࡷࡂࡷࡤࡳ࠼ࠪࠦ") + l1l111l1 + l11lllll (u"ࠨࠨࡱࡹࡲࡃ࠱࠱࠲ࠩ࡬ࡱࡃࡥ࡯ࠨࡥ࡭ࡼࡃ࠱࠳࠺࠳ࠪࡧ࡯ࡨ࠾࠸࠴࠶ࠫࡶࡲ࡮ࡦࡀ࡭ࡻࡴࡳࠧࡧ࡬ࡁࠬࠧ") + str(quote(self.ei)) + l11lllll (u"ࠩࠩࡷࡦࡃࡎࠨࠨ")
+				l1l111 = self.l11ll(l111ll1l)
+				soup = BeautifulSoup(l1l111.text, l11lllll (u"ࠪ࡬ࡹࡳ࡬࠯ࡲࡤࡶࡸ࡫ࡲࠨࠩ"))
+				l1llll1l = soup.findAll(l11lllll (u"ࠫ࡫ࡵࡲ࡮ࠩࠪ"))
+				if not l1llll1l is not None:
+					if l1llll1l != []:
+						if l1llll1l[0][l11lllll (u"ࠬ࡯ࡤࠨࠫ")] == l11lllll (u"࠭ࡣࡢࡲࡷࡧ࡭ࡧ࠭ࡧࡱࡵࡱࠬࠬ"):
+							raise l1l1lll1
+				links = soup.findAll(l11lllll (u"ࠧࡢࠩ࠭"))
 				for link in links:
-					l1lll111 = link[l111lll1 (u"ࠨࡪࡵࡩ࡫࠭࠮")]
-					if l111lll1 (u"ࠩ࠲ࡹࡷࡲ࠿ࡲ࠿࡫ࡸࡹࡶࡳ࠻࠱࠲ࡴࡦࡹࡴࡦࡤ࡬ࡲ࠳ࡩ࡯࡮ࠩ࠯") in l1lll111:
-						self.l1lll1ll.append(l1lll111[7:])
+					l111l1 = link[l11lllll (u"ࠨࡪࡵࡩ࡫࠭࠮")]
+					if l11lllll (u"ࠩ࠲ࡹࡷࡲ࠿ࡲ࠿࡫ࡸࡹࡶࡳ࠻࠱࠲ࡴࡦࡹࡴࡦࡤ࡬ࡲ࠳ࡩ࡯࡮ࠩ࠯") in l111l1:
+						self.l11llll1.append(l111l1[7:])
 				break
-			except l11lll11:
-				print(Fore.RED + Style.DIM + l111lll1 (u"ࠪࡠࡳࠦ࠾࡛ࠡࡲࡹࠥ࡮ࡡࡷࡧࠣࡆࡪ࡫࡮ࠡࡄ࡯ࡥࡨࡱ࡬ࡪࡵࡷࡩࡩࠦࡦࡳࡱࡰࠤࡌࡵ࡯ࡨ࡮ࡨ࠲ࠥࡕࡰࡦࡰࠣࠫ࠰") + Style.BRIGHT + l1ll1ll1 + Style.DIM + l111lll1 (u"ࠫࠥ࡯࡮ࠡࡈ࡬ࡶࡪ࡬࡯ࡹࠢࡤࡲࡩࠦࡅ࡯ࡶࡨࡶࠥࡺࡨࡦࠢࡆࡳࡳࡺࡥ࡯ࡶࠣࡳ࡫ࠦࡴࡩࡧࠣࡋࡔࡕࡇࡍࡇࡢࡅࡇ࡛ࡓࡆࡡࡈ࡜ࡊࡓࡐࡕࡋࡒࡒࠥࡉ࡯ࡰ࡭࡬ࡩ࠳ࠦࡃࡐࡑࡎࡍࡊ࡙ࠠࡏࡑࡗࠤ࡜ࡕࡒࡌࡋࡑࡋ࠳࠭࠱") + Style.RESET_ALL)
+			except l1l1lll1:
+				print(Fore.RED + Style.DIM + l11lllll (u"ࠪࡠࡳࠦ࠾࡛ࠡࡲࡹࠥ࡮ࡡࡷࡧࠣࡆࡪ࡫࡮ࠡࡄ࡯ࡥࡨࡱ࡬ࡪࡵࡷࡩࡩࠦࡦࡳࡱࡰࠤࡌࡵ࡯ࡨ࡮ࡨ࠲ࠥࡕࡰࡦࡰࠣࠫ࠰") + Style.BRIGHT + l111ll1l + Style.DIM + l11lllll (u"ࠫࠥ࡯࡮ࠡࡈ࡬ࡶࡪ࡬࡯ࡹࠢࡤࡲࡩࠦࡅ࡯ࡶࡨࡶࠥࡺࡨࡦࠢࡆࡳࡳࡺࡥ࡯ࡶࠣࡳ࡫ࠦࡴࡩࡧࠣࡋࡔࡕࡇࡍࡇࡢࡅࡇ࡛ࡓࡆࡡࡈ࡜ࡊࡓࡐࡕࡋࡒࡒࠥࡉ࡯ࡰ࡭࡬ࡩ࠳ࠦࡃࡐࡑࡎࡍࡊ࡙ࠠࡏࡑࡗࠤ࡜ࡕࡒࡌࡋࡑࡋ࠳࠭࠱") + Style.RESET_ALL)
 				break
-	def l1l1ll1l(self):
-		chars = l111lll1 (u"ࠬ࠵࠭࡝࡞ࡿࠫ࠲")
+	def l1l1lll(self):
+		chars = l11lllll (u"ࠬ࠵࠭࡝࡞ࡿࠫ࠲")
 		for char in chars:
-			sys.stdout.write(l111lll1 (u"࠭࡜ࡳࠩ࠳") + Fore.GREEN + Style.DIM + l111lll1 (u"ࠧࠡࡀࠣࡗࡨࡸࡡࡱ࡫ࡱ࡫࠳࠴࠮ࠨ࠴") + str(char))
+			sys.stdout.write(l11lllll (u"࠭࡜ࡳࠩ࠳") + Fore.GREEN + Style.DIM + l11lllll (u"ࠧࠡࡀࠣࡗࡨࡸࡡࡱ࡫ࡱ࡫࠳࠴࠮ࠨ࠴") + str(char))
 			time.sleep(0.2)
 			sys.stdout.flush()
-	def l11l11ll(self):
-		global l1l1llll
-		for link in self.l1lll1ll:
-			l1ll1lll = link.index(l111lll1 (u"ࠨࠨࠪ࠵"))
-			l1111l1 = link[0:l1ll1lll]
-			if l111lll1 (u"ࠩ࡫ࡸࡹࡶࡳ࠻࠱࠲ࡴࡦࡹࡴࡦࡤ࡬ࡲ࠳ࡩ࡯࡮࠱ࡸ࠳ࠬ࠶") not in l1111l1:
-				l1l1llll.append(link[0:l1ll1lll])
-	def l1ll11l1(self, l111ll):
-		self.l11l11l()
-		self.l111ll1l()
-		self.l1l1l11()
-		self.l111ll1l()
-		self.l111l11(l111ll)
-		self.l11l11ll()
-l111lll1 (u"ࠥࠦࠧࠐࡣ࡭ࡣࡶࡷࠥࡊࡵࡤ࡭ࡇࡹࡨࡱࡇࡰࡕࡦࡶࡦࡶࡥࡳ࠼ࠍࠎࠎࡪࡥࡧࠢࡢࡣ࡮ࡴࡩࡵࡡࡢࠬࡸ࡫࡬ࡧࠫ࠽ࠎࠎࠏࡳࡦ࡮ࡩ࠲ࡺࡸ࡬ࠡ࠿ࠣࠫ࡭ࡺࡴࡱࡵ࠽࠳࠴ࡪࡵࡤ࡭ࡧࡹࡨࡱࡧࡰ࠰ࡦࡳࡲ࠵ࡨࡵ࡯࡯࠳ࠬࠐࠉࠊࡵࡨࡰ࡫࠴ࡰࡢࡴࡤࡱࡸࠦ࠽ࠡࡽࠪࡵࠬࡀࡎࡰࡰࡨ࠰ࠥࠦࠧࡴࠩ࠽ࠫ࠵࠭ࡽࠋࠋࠌࡷࡪࡲࡦ࠯ࡪࡨࡥࡩ࡫ࡲࡴࠢࡀࠤࢀ࠭ࡕࡴࡧࡵ࠱ࡆ࡭ࡥ࡯ࡶࠪ࠾ࠬࡩࡵࡳ࡮࠲࠻࠳࠼࠵࠯࠵ࠪ࠰ࠏࠏࠉࠡࠩࡄࡧࡨ࡫ࡰࡵࠩ࠽ࠫ࠯࠵ࠪࠨࡿࠍࠎࠎࡪࡥࡧࠢࡶࡩࡹࡑࡥࡺࡹࡲࡶࡩ࠮ࡳࡦ࡮ࡩ࠰ࠥࡱࡥࡺࡹࡲࡶࡩ࠯࠺ࠋࠋࠌࡷࡪࡲࡦ࠯ࡲࡤࡶࡦࡳࡳ࡜ࠩࡴࠫࡢࠦ࠽ࠡ࡭ࡨࡽࡼࡵࡲࡥࠢ࠮ࠤࠬࠦࡳࡪࡶࡨ࠾ࡵࡧࡳࡵࡧࡥ࡭ࡳ࠴ࡣࡰ࡯ࠪࠎࠏࠏࡤࡦࡨࠣࡷࡨࡸࡡࡱࡧࠫࡷࡪࡲࡦ࠭ࠢࡩࡶࡪࡹࡨ࡯ࡧࡶࡷࡂࡔ࡯࡯ࡧࠬ࠾ࠏࠏࠉࡱࡣࡵࡥࡲࡹࠠ࠾ࠢࡶࡩࡱ࡬࠮ࡱࡣࡵࡥࡲࡹࠊࠊࠋ࡫ࡩࡦࡪࡥࡳࡵࠣࡁࠥࡹࡥ࡭ࡨ࠱࡬ࡪࡧࡤࡦࡴࡶࠎࠎࠏࡵࡳ࡮ࠣࡁࠥࡹࡥ࡭ࡨ࠱ࡹࡷࡲࠊࠊࠋࡰࡥࡽࡥࡲࡦࡵࡸࡰࡹࡹࠠ࠾ࠢ࠴࠴࠵࠶ࠊࠊࠋࡼ࡭ࡪࡲࡤࡦࡦࠣࡁࠥ࠶ࠊࠊࠋ࡬ࡪࠥ࡬ࡲࡦࡵ࡫ࡲࡪࡹࡳ࠻ࠌࠌࠍࠎࡶࡡࡳࡣࡰࡷࡠ࠭ࡴࠨ࡟ࠣࡁࠥ࠭ࡨࡱࠩࠍࠍࠎࠏࡰࡢࡴࡤࡱࡸࡡࠧࡥࡨࠪࡡࠥࡃࠠࡧࡴࡨࡷ࡭ࡴࡥࡴࡵࠍࠍࠎࡽࡨࡪ࡮ࡨࠤ࡙ࡸࡵࡦ࠼ࠍࠍࠎࠏࡲࡦࡵࡳࡳࡳࡹࡥࡠࡦࡧ࡫ࠥࡃࠠࡳࡧࡴࡹࡪࡹࡴࡴ࠰ࡳࡳࡸࡺࠨࡶࡴ࡯࠰ࠥࡪࡡࡵࡣࡀࡴࡦࡸࡡ࡮ࡵ࠯ࠤ࡭࡫ࡡࡥࡧࡵࡷࡂ࡮ࡥࡢࡦࡨࡶࡸ࠯ࠊࠊࠋࠌࡰࡽࡳ࡬ࡠࡲࡤࡶࡸ࡫ࡤࠡ࠿ࠣ࡬ࡹࡳ࡬࠯ࡨࡵࡳࡲࡹࡴࡳ࡫ࡱ࡫࠭ࡸࡥࡴࡲࡲࡲࡸ࡫࡟ࡥࡦࡪ࠲ࡹ࡫ࡸࡵࠫࠍࠍࠎࠏࡩࡧࠢࠪࡍ࡫ࠦࡴࡩ࡫ࡶࠤࡪࡸࡲࡰࡴࠣࡴࡪࡸࡳࡪࡵࡷࡷ࠱࠭ࠠࡪࡰࠣࡶࡪࡹࡰࡰࡰࡶࡩࡤࡪࡤࡨ࠰ࡷࡩࡽࡺ࠺ࠋࠋࠌࠍࠎࡶࡲࡪࡰࡷࠬࡋࡵࡲࡦ࠰ࡕࡉࡉࠦࠫࠡࡕࡷࡽࡱ࡫࠮ࡃࡔࡌࡋࡍ࡚ࠠࠬࠢࠥࠤࡃࠦࡗࡦ࡮࡯ࠤࡾࡵࡵࠨࡴࡨࠤࡋࡻࡣ࡬ࡧࡧ࠲ࠥࡋࡶࡦࡰࠣࡈࡺࡩ࡫ࡅࡷࡦ࡯ࡌࡵࠠࡃࡣࡱࡲࡪࡪ࡚ࠠࡱࡸ࠰࡚ࠥࡡ࡬ࡧࠣࡥࠥࡉࡨࡪ࡮࡯ࠤࡉࡻࡤࡦ࠰ࠥ࠭ࠏࠏࠉࠊࠋࡥࡶࡪࡧ࡫ࠋࠋࠌࠍࡪࡲࡳࡦ࠼ࠍࠍࠎࠏࠉࡳࡧࡶࡹࡱࡺࡳࠡ࠿ࠣ࡟ࡦ࠴ࡧࡦࡶࠫࠫ࡭ࡸࡥࡧࠩࠬࠤ࡫ࡵࡲࠡࡣࠣ࡭ࡳࠦ࡬ࡹ࡯࡯ࡣࡵࡧࡲࡴࡧࡧ࠲ࡨࡹࡳࡴࡧ࡯ࡩࡨࡺࠨࠨࠥ࡯࡭ࡳࡱࡳࠡ࠰࡯࡭ࡳࡱࡳࡠ࡯ࡤ࡭ࡳࠦࡡࠨࠫࡠࠎࠎࠏࠉࠊࡨࡲࡶࠥࡸࡥࡴࡷ࡯ࡸࠥ࡯࡮ࠡࡴࡨࡷࡺࡲࡴࡴ࠼ࠍࠍࠎࠏࠉࠊࡷࡵࡰࡱ࡯ࡳࡵ࠰ࡤࡴࡵ࡫࡮ࡥࠪࡵࡩࡸࡻ࡬ࡵࠫࠍࠍࠎࠏࠉࠊࡻ࡬ࡩࡱࡪࡥࡥࠢ࠮ࡁࠥ࠷ࠊࠊࠋࠌࠍࠎ࡯ࡦࠡ࡯ࡤࡼࡤࡸࡥࡴࡷ࡯ࡸࡸࡀࠊࠊࠋࠌࠍࠎࠏࡩࡧࠢࡼ࡭ࡪࡲࡤࡦࡦࠣࡂࡂࠦ࡭ࡢࡺࡢࡶࡪࡹࡵ࡭ࡶࡶ࠾ࠏࠏࠉࠊࠋࠌࠍࠎࡨࡲࡦࡣ࡮ࠎࠏࠏࠉࠊࠋࡷࡶࡾࡀࠊࠊࠋࠌࠍࠎ࡬࡯ࡳ࡯ࠣࡁࠥࡲࡸ࡮࡮ࡢࡴࡦࡸࡳࡦࡦ࠱ࡧࡸࡹࡳࡦ࡮ࡨࡧࡹ࠮ࠧ࠯ࡴࡨࡷࡺࡲࡴࡴࡡ࡯࡭ࡳࡱࡳࡠ࡯ࡲࡶࡪࠦࡦࡰࡴࡰࠫ࠮ࡡࠨ࠮࠳ࠬࡡࠏࠏࠉࠊࠋࡨࡼࡨ࡫ࡰࡵࠢࡌࡲࡩ࡫ࡸࡆࡴࡵࡳࡷࡀࠊࠊࠋࠌࠍࠎࡨࡲࡦࡣ࡮ࠎࠏࠏࠉࠊࠋࡳࡥࡷࡧ࡭ࡴࠢࡀࠤࡩ࡯ࡣࡵࠪࡩࡳࡷࡳ࠮ࡧ࡫ࡨࡰࡩࡹࠩࠋࠌࠌࡨࡪ࡬ࠠࡤ࡮ࡨࡥࡳࡒࡩࡴࡶࠫࡷࡪࡲࡦ࠭ࠢࡸࡶࡱࡲࡩࡴࡶࠬ࠾ࠏࠏࠉࡱࡷࡵࡩࡤࡲࡩࡴࡶࠣࡁࠥࡲࡩࡴࡶࠫࡨ࡮ࡩࡴ࠯ࡨࡵࡳࡲࡱࡥࡺࡵࠫࡹࡷࡲ࡬ࡪࡵࡷ࠭࠮ࠐࠉࠊࡴࡨࡸࡺࡸ࡮ࠡࡲࡸࡶࡪࡥ࡬ࡪࡵࡷࠎࠏࠏࡤࡦࡨࠣࡥࡳ࡯࡭ࡢࡶࡨࡨࡤࡲ࡯ࡢࡦ࡬ࡲ࡬࠮ࡳࡦ࡮ࡩ࠭࠿ࠐࠉࠊ࡮࠱ࡥࡨࡷࡵࡪࡴࡨࠬ࠮ࠐࠉࠊࡥ࡫ࡥࡷࡹࠠ࠾ࠢࠪ࠳࠲ࡢ࡜ࡽࠩࠍࠍࠎ࡬࡯ࡳࠢࡦ࡬ࡦࡸࠠࡪࡰࠣࡧ࡭ࡧࡲࡴ࠼ࠍࠍࠎࠏࡳࡺࡵ࠱ࡷࡹࡪ࡯ࡶࡶ࠱ࡻࡷ࡯ࡴࡦࠪࠪࡠࡷ࠭ࠠࠬࠢࡉࡳࡷ࡫࠮ࡈࡔࡈࡉࡓࠦࠫࠡࡕࡷࡽࡱ࡫࠮ࡅࡋࡐࠤ࠰ࠦࠧࠡࡀࠣࡗࡨࡸࡡࡱ࡫ࡱ࡫࠳࠴࠮ࠨࠢ࠮ࠤࡸࡺࡲࠩࡥ࡫ࡥࡷ࠯ࠩࠋࠋࠌࠍࡹ࡯࡭ࡦ࠰ࡶࡰࡪ࡫ࡰࠩ࠲࠱࠶࠮ࠐࠉࠊࠋࡶࡽࡸ࠴ࡳࡵࡦࡲࡹࡹ࠴ࡦ࡭ࡷࡶ࡬࠭࠯ࠊࠋࠋࠌࡰ࠳ࡸࡥ࡭ࡧࡤࡷࡪ࠮ࠩࠋࠤࠥࠦ࠷")
-class l1lll1:
+	def l1l11lll(self):
+		global l1ll
+		for link in self.l11llll1:
+			l11lll = link.index(l11lllll (u"ࠨࠨࠪ࠵"))
+			l11l11l1 = link[0:l11lll]
+			if l11lllll (u"ࠩ࡫ࡸࡹࡶࡳ࠻࠱࠲ࡴࡦࡹࡴࡦࡤ࡬ࡲ࠳ࡩ࡯࡮࠱ࡸ࠳ࠬ࠶") not in l11l11l1:
+				l1ll.append(link[0:l11lll])
+	def l11(self, l1l111l1):
+		self.l11ll1l()
+		self.l11ll1l1()
+		self.l11ll1ll()
+		self.l11ll1l1()
+		self.l11l1l1l(l1l111l1)
+		self.l1l11lll()
+class l111lll1:
 	def __init__(self, filename):
-		self.l11ll1 = l111lll1 (u"ࠫࡵࡧࡳࡵࡧࡥ࡭ࡳ࠴ࡣࡰ࡯࠲ࡶࡦࡽࠧ࠸")
+		self.l1llll1 = l11lllll (u"ࠪࡴࡦࡹࡴࡦࡤ࡬ࡲ࠳ࡩ࡯࡮࠱ࡵࡥࡼ࠭࠷")
 		self.s = Session()
-		self.l11l111 = {l111lll1 (u"࡛ࠬࡳࡦࡴ࠰ࡅ࡬࡫࡮ࡵࠩ࠹"):l111lll1 (u"࠭ࡍࡰࡼ࡬ࡰࡱࡧ࠯࠶࠰࠳ࠤ࠭ࡇ࡮ࡥࡴࡲ࡭ࡩࠦ࠹࠼ࠢࡐࡳࡧ࡯࡬ࡦ࠽ࠣࡶࡻࡀ࠶࠸࠰࠳࠭ࠥࡍࡥࡤ࡭ࡲ࠳࠻࠽࠮࠱ࠢࡉ࡭ࡷ࡫ࡦࡰࡺ࠲࠺࠼࠴࠰ࠨ࠺"),
-		 l111lll1 (u"ࠧࡂࡥࡦࡩࡵࡺࠧ࠻"):l111lll1 (u"ࠨࡶࡨࡼࡹ࠵ࡸ࡮࡮࠯ࡥࡵࡶ࡬ࡪࡥࡤࡸ࡮ࡵ࡮࠰ࡺࡰࡰ࠱ࡧࡰࡱ࡮࡬ࡧࡦࡺࡩࡰࡰ࠲ࡼ࡭ࡺ࡭࡭࠭ࡻࡱࡱ࠲ࡴࡦࡺࡷ࠳࡭ࡺ࡭࡭࠽ࡴࡁ࠵࠴࠹࠭ࡶࡨࡼࡹ࠵ࡰ࡭ࡣ࡬ࡲࡀࡷ࠽࠱࠰࠻࠰࡮ࡳࡡࡨࡧ࠲ࡴࡳ࡭ࠬࠫ࠱࠭࠿ࡶࡃ࠰࠯࠷ࠪ࠼"),
-		 l111lll1 (u"ࠩࡆࡳࡳࡴࡥࡤࡶ࡬ࡳࡳ࠭࠽"):l111lll1 (u"ࠪ࡯ࡪ࡫ࡰ࠮ࡣ࡯࡭ࡻ࡫ࠧ࠾"),
-		 l111lll1 (u"ࠫࡐ࡫ࡥࡱ࠯ࡄࡰ࡮ࡼࡥࠨ࠿"):l111lll1 (u"ࠬ࠷࠱࠶ࠩࡀ"),
-		 l111lll1 (u"࠭ࡁࡤࡥࡨࡴࡹ࠳ࡃࡩࡣࡵࡷࡪࡺࠧࡁ"):l111lll1 (u"ࠧࡊࡕࡒ࠱࠽࠾࠵࠺࠯࠴࠰ࡺࡺࡦ࠮࠺࠾ࡵࡂ࠶࠮࠸࠮࠭࠿ࡶࡃ࠰࠯࠹ࠪࡂ"),
-		 l111lll1 (u"ࠨࡃࡦࡧࡪࡶࡴ࠮ࡎࡤࡲ࡬ࡻࡡࡨࡧࠪࡃ"):l111lll1 (u"ࠩࡨࡲ࠲ࡻࡳ࠭ࡧࡱ࠿ࡶࡃ࠰࠯࠷ࠪࡄ")}
-		self.s.headers.update(self.l11l111)
-		self.l11l111l = re.compile(l111lll1 (u"ࠪࡢࡠࡧ࠭ࡻࡃ࠰࡞࠵࠳࠹࠯ࡡ࠰ࡡ࠰ࡆ࡛ࡢ࠯ࡽࡅ࠲ࡠ࠰࠮࠻࠰ࡡ࠰ࡢ࡜࠯࡝ࡤ࠱ࡿࡇ࡛࠭࠰ࡠࡿ࠷࠲࠹ࡾࠦࠪࡅ"), re.IGNORECASE)
-		self.l1l1ll1 = re.compile(l111lll1 (u"ࠫࡣࡡ࠰࠮࠻ࡄ࠱࡟ࡧ࠭ࡻࠣࡃࠧࠩࡅࠥ࠯ࡡ࠰ࡡࢀ࠸ࠬ࠴࠴ࢀࠨࠬࡆ"), re.IGNORECASE)
-		self.l1l1l1 = re.compile(l111lll1 (u"ࠬࡤࠨࡩࡶࡷࡴࢁ࡮ࡴࡵࡲࡶ࠭࠿࠵࠯ࡱࡣࡶࡸࡪࡨࡩ࡯࠰ࡦࡳࡲ࠵࡜ࡸ࠭ࠧࠫࡇ"), re.IGNORECASE)
+		self.l1l1ll1 = {l11lllll (u"࡚ࠫࡹࡥࡳ࠯ࡄ࡫ࡪࡴࡴࠨ࠸"):l11lllll (u"ࠬࡓ࡯ࡻ࡫࡯ࡰࡦ࠵࠵࠯࠲ࠣࠬࡆࡴࡤࡳࡱ࡬ࡨࠥ࠿࠻ࠡࡏࡲࡦ࡮ࡲࡥ࠼ࠢࡵࡺ࠿࠼࠷࠯࠲ࠬࠤࡌ࡫ࡣ࡬ࡱ࠲࠺࠼࠴࠰ࠡࡈ࡬ࡶࡪ࡬࡯ࡹ࠱࠹࠻࠳࠶ࠧ࠹"),
+		 l11lllll (u"࠭ࡁࡤࡥࡨࡴࡹ࠭࠺"):l11lllll (u"ࠧࡵࡧࡻࡸ࠴ࡾ࡭࡭࠮ࡤࡴࡵࡲࡩࡤࡣࡷ࡭ࡴࡴ࠯ࡹ࡯࡯࠰ࡦࡶࡰ࡭࡫ࡦࡥࡹ࡯࡯࡯࠱ࡻ࡬ࡹࡳ࡬ࠬࡺࡰࡰ࠱ࡺࡥࡹࡶ࠲࡬ࡹࡳ࡬࠼ࡳࡀ࠴࠳࠿ࠬࡵࡧࡻࡸ࠴ࡶ࡬ࡢ࡫ࡱ࠿ࡶࡃ࠰࠯࠺࠯࡭ࡲࡧࡧࡦ࠱ࡳࡲ࡬࠲ࠪ࠰ࠬ࠾ࡵࡂ࠶࠮࠶ࠩ࠻"),
+		 l11lllll (u"ࠨࡅࡲࡲࡳ࡫ࡣࡵ࡫ࡲࡲࠬ࠼"):l11lllll (u"ࠩ࡮ࡩࡪࡶ࠭ࡢ࡮࡬ࡺࡪ࠭࠽"),
+		 l11lllll (u"ࠪࡏࡪ࡫ࡰ࠮ࡃ࡯࡭ࡻ࡫ࠧ࠾"):l11lllll (u"ࠫ࠶࠷࠵ࠨ࠿"),
+		 l11lllll (u"ࠬࡇࡣࡤࡧࡳࡸ࠲ࡉࡨࡢࡴࡶࡩࡹ࠭ࡀ"):l11lllll (u"࠭ࡉࡔࡑ࠰࠼࠽࠻࠹࠮࠳࠯ࡹࡹ࡬࠭࠹࠽ࡴࡁ࠵࠴࠷࠭ࠬ࠾ࡵࡂ࠶࠮࠸ࠩࡁ"),
+		 l11lllll (u"ࠧࡂࡥࡦࡩࡵࡺ࠭ࡍࡣࡱ࡫ࡺࡧࡧࡦࠩࡂ"):l11lllll (u"ࠨࡧࡱ࠱ࡺࡹࠬࡦࡰ࠾ࡵࡂ࠶࠮࠶ࠩࡃ")}
+		self.s.headers.update(self.l1l1ll1)
+		self.l1l1ll11 = re.compile(l11lllll (u"ࠩࡡ࡟ࡦ࠳ࡺࡂ࠯࡝࠴࠲࠿࠮ࡠ࠯ࡠ࠯ࡅࡡࡡ࠮ࡼࡄ࠱࡟࠶࠭࠺࠯ࡠ࠯ࡡࡢ࠮࡜ࡣ࠰ࡾࡆ࠳࡚࠯࡟ࡾ࠶࠱࠿ࡽࠥࠩࡄ"), re.IGNORECASE)
+		self.l1l1l = re.compile(l11lllll (u"ࠪࡢࡠ࠶࠭࠺ࡃ࠰࡞ࡦ࠳ࡺࠢࡂࠦࠨࡄࠫ࠮ࡠ࠯ࡠࡿ࠷࠲࠳࠳ࡿࠧࠫࡅ"), re.IGNORECASE)
+		self.l11l = re.compile(l11lllll (u"ࠫࡣ࠮ࡨࡵࡶࡳࢀ࡭ࡺࡴࡱࡵࠬ࠾࠴࠵ࡰࡢࡵࡷࡩࡧ࡯࡮࠯ࡥࡲࡱ࠴ࡢࡷࠬࠦࠪࡆ"), re.IGNORECASE)
 		self.filename = filename
 		self.n = 0
-	def l1ll(self, links):
+	def l1l1111l(self, links):
 		self.n = 0
-		l11lll1l = []
+		l1ll1l1 = []
 		for link in links:
-			if link != l111lll1 (u"࠭ࠧࡈ") and link is not None: # and self.l1l1l1.match(link):
-				l11lll1l.append(link)
-		with open(self.filename, l111lll1 (u"ࠧࡢࠩࡉ")) as l11lll1:
-			for link in l11lll1l:
-				print(Fore.GREEN + Style.NORMAL + l111lll1 (u"ࠨࠢࡁࠤࡑ࡫ࡥࡤࡪ࡬ࡲ࡬ࠦࠧࡊ") + link + l111lll1 (u"ࠩ࠱࠲࠳࠭ࡋ"))
-				l1111ll = link.replace(l111lll1 (u"ࠪࡴࡦࡹࡴࡦࡤ࡬ࡲ࠳ࡩ࡯࡮ࠩࡌ"), self.l11ll1, 1)
-				req = Request(l111lll1 (u"ࠫࡌࡋࡔࠨࡍ"), l1111ll)
+			if link != l11lllll (u"ࠬ࠭ࡇ") and link is not None: # and self.l11l.match(link):
+				l1ll1l1.append(link)
+		with open(self.filename, l11lllll (u"࠭ࡡࠨࡈ")) as l11l11l:
+			for link in l1ll1l1:
+				print(Fore.GREEN + Style.NORMAL + l11lllll (u"ࠧࠡࡀࠣࡐࡪ࡫ࡣࡩ࡫ࡱ࡫ࠥ࠭ࡉ") + link + l11lllll (u"ࠨ࠰࠱࠲ࠬࡊ"))
+				l1111l = link.replace(l11lllll (u"ࠩࡳࡥࡸࡺࡥࡣ࡫ࡱ࠲ࡨࡵ࡭ࠨࡋ"), self.l1llll1, 1)
+				req = Request(l11lllll (u"ࠪࡋࡊ࡚ࠧࡌ"), l1111l)
 				prep = req.prepare()
-				l1l1l111 = self.s.send(prep, timeout=30)
-				soup = BeautifulSoup(l1l1l111.content, l111lll1 (u"ࠬ࡮ࡴ࡮࡮࠱ࡴࡦࡸࡳࡦࡴࠪࡎ"))
-				l1l11l1 = l111lll1 (u"࠭ࠧࡏ").join(soup.findAll(text=True))
-				l1lll11l = l1l11l1.split(l111lll1 (u"ࠧ࡝ࡰࠪࡐ"))
+				l1lll1 = self.s.send(prep, timeout=30)
+				soup = BeautifulSoup(l1lll1.content, l11lllll (u"ࠫ࡭ࡺ࡭࡭࠰ࡳࡥࡷࡹࡥࡳࠩࡍ"))
+				l11ll1 = l11lllll (u"ࠬ࠭ࡎ").join(soup.findAll(text=True))
+				l1ll111 = l11ll1.split(l11lllll (u"࠭࡜࡯ࠩࡏ"))
 				i = 0
-				for line in l1lll11l:
-					if l111lll1 (u"ࠨࡾࠪࡑ") in line:
-						line = line.split(l111lll1 (u"ࠩࡿࠫࡒ"))[0]
-					if l111lll1 (u"ࠪ࠾ࠬࡓ") in line:
-						if l111lll1 (u"ࠫࡅ࠭ࡔ") in line:
+				for line in l1ll111:
+					if l11lllll (u"ࠧࡽࠩࡐ") in line:
+						line = line.split(l11lllll (u"ࠨࡾࠪࡑ"))[0]
+					if l11lllll (u"ࠩ࠽ࠫࡒ") in line:
+						if l11lllll (u"ࠪࡄࠬࡓ") in line:
 							try:
-								l1lllll1, l11lll = line.split(l111lll1 (u"ࠬࡀࠧࡕ"))
+								l1lll111, l1lllll = line.split(l11lllll (u"ࠫ࠿࠭ࡔ"))
 							except ValueError:
-								l11ll111 = line.split(l111lll1 (u"࠭࠺ࠨࡖ"))
-								l1lllll1 = l11ll111[0]
-								l11lll = l11ll111[1]
-							l1lllll1 = l1lllll1.strip()
-							l11lll = l11lll.strip()
-							if self.l11l111l.match(l1lllll1):
-								if self.l1l1ll1.match(l11lll):
-									l1ll11ll = l1lllll1 + l111lll1 (u"ࠧ࠻ࠩࡗ") + l11lll
-									print(Fore.GREEN + Style.DIM + l111lll1 (u"ࠨࠢ࡟ࡸࡃࠦࡃࡰ࡯ࡥࡳࠥࡌ࡯ࡶࡰࡧࠤ࠿ࠦࠧࡘ") + l1ll11ll)
-									l11lll1.write(l1ll11ll + l111lll1 (u"ࠩ࡟ࡲ࡙ࠬ"))
+								l1111l1 = line.split(l11lllll (u"ࠬࡀࠧࡕ"))
+								l1lll111 = l1111l1[0]
+								l1lllll = l1111l1[1]
+							l1lll111 = l1lll111.strip()
+							l1lllll = l1lllll.strip()
+							if self.l1l1ll11.match(l1lll111):
+								if self.l1l1l.match(l1lllll):
+									l1l111l = l1lll111 + l11lllll (u"࠭࠺ࠨࡖ") + l1lllll
+									print(Fore.GREEN + Style.DIM + l11lllll (u"ࠧࠡ࡞ࡷࡂࠥࡉ࡯࡮ࡤࡲࠤࡋࡵࡵ࡯ࡦࠣ࠾ࠥ࠭ࡗ") + l1l111l)
+									l11l11l.write(l1l111l + l11lllll (u"ࠨ࡞ࡱࠫࡘ"))
 									i = i + 1
 									self.n = self.n + 1
-				print(Fore.GREEN + Style.NORMAL + l111lll1 (u"ࠪࠤࡃࠦࡆࡰࡷࡱࡨ࡚ࠥ࠭") + str(i) + l111lll1 (u"ࠫࠥࡉ࡯࡮ࡤࡲࡷࠥ࡯࡮ࠡࡖ࡫࡭ࡸࠦࡌࡪࡰ࡮࠲࡛ࠬ"))
-				#print(Fore.GREEN + Style.NORMAL + l111lll1 (u"ࠬࠦ࠾ࠡࡖࡲࡸࡦࡲࠠࡄࡱࡰࡦࡴࡹࠠ࠻ࠢࠪ࡜") + Style.BRIGHT + str(self.n))
-				print(Fore.YELLOW + Style.DIM + l111lll1 (u"࠭ࠠ࠿ࠢࡓࡶࡪࡹࡳࠡࡅࡗࡖࡑࠦࠫࠡࡅࠣࡥࡹࠦࡁ࡯ࡻࠣࡔࡴ࡯࡮ࡵࠢࡷࡳࠥࡉࡡ࡯ࡥࡨࡰࠥࡧ࡮ࡥࠢࡖࡥࡻ࡫ࠠࡄࡱࡰࡦࡴࡹ࠮ࠡ࡞ࡱࠫ࡝"))
-		l111llll = 0
-		with open(self.filename, l111lll1 (u"ࠧࡳࠩ࡞")) as l1llllll:
-			for line in l1llllll:
-				l111llll = l111llll + 1
-		print(Fore.GREEN + Style.NORMAL + l111lll1 (u"ࠨ࡞ࡱࠤࡃࠦࡆࡰࡷࡱࡨࠥ࠭࡟") + Style.BRIGHT + str(l111llll) + Style.NORMAL + l111lll1 (u"ࠩࠣࡇࡴࡳࡢࡰࡵ࠱ࠫࡠ"))
-		print(Fore.GREEN + Style.NORMAL + l111lll1 (u"ࠪࠤࡃࠦࡓࡢࡸࡨࡨ࡙ࠥࡵࡤࡥࡨࡷࡸ࡬ࡵ࡭࡮ࡼ࠲ࠬࡡ"))
-		print(Fore.CYAN + Style.BRIGHT + l111lll1 (u"ࠫࠥࡄࠠࡄࡱࡰࡦࡴࡍࡥ࡯ࠢࡥࡽࠥࡆࡨࡦࡹ࡫ࡳࡲࡻࡳࡵࡰ࠳ࡸࡧ࡫࡮ࡢ࡯ࡨࡨ࠳ࠦࡐࡦࡣࡦࡩࠦ࠭ࡢ"))
-def l11lllll():
-	if os.path.isfile(l111lll1 (u"ࠬ࠴ࡦࡪࡴࡶࡸࠬࡣ")):
-		l1l11l1l = strtobool(open(l111lll1 (u"࠭࠮ࡧ࡫ࡵࡷࡹ࠭ࡤ"), l111lll1 (u"ࠧࡳࠩࡥ")).read().strip())
+				print(Fore.GREEN + Style.NORMAL + l11lllll (u"ࠩࠣࡂࠥࡌ࡯ࡶࡰࡧࠤ࡙ࠬ") + str(i) + l11lllll (u"ࠪࠤࡈࡵ࡭ࡣࡱࡶࠤ࡮ࡴࠠࡕࡪ࡬ࡷࠥࡒࡩ࡯࡭࠱࡚ࠫ"))
+				#print(Fore.GREEN + Style.NORMAL + l11lllll (u"ࠫࠥࡄࠠࡕࡱࡷࡥࡱࠦࡃࡰ࡯ࡥࡳࡸࠦ࠺࡛ࠡࠩ") + Style.BRIGHT + str(self.n))
+				print(Fore.YELLOW + Style.DIM + l11lllll (u"ࠬࠦ࠾ࠡࡒࡵࡩࡸࡹࠠࡄࡖࡕࡐࠥ࠱ࠠࡄࠢࡤࡸࠥࡇ࡮ࡺࠢࡓࡳ࡮ࡴࡴࠡࡶࡲࠤࡈࡧ࡮ࡤࡧ࡯ࠤࡦࡴࡤࠡࡕࡤࡺࡪࠦࡃࡰ࡯ࡥࡳࡸ࠴ࠠ࡝ࡰࠪ࡜"))
+		l1llll11 = 0
+		with open(self.filename, l11lllll (u"࠭ࡲࠨ࡝")) as l11l111l:
+			for line in l11l111l:
+				l1llll11 = l1llll11 + 1
+		print(Fore.GREEN + Style.NORMAL + l11lllll (u"ࠧ࡝ࡰࠣࡂࠥࡌ࡯ࡶࡰࡧࠤࠬ࡞") + Style.BRIGHT + str(l1llll11) + Style.NORMAL + l11lllll (u"ࠨࠢࡆࡳࡲࡨ࡯ࡴ࠰ࠪ࡟"))
+		print(Fore.GREEN + Style.NORMAL + l11lllll (u"ࠩࠣࡂ࡙ࠥࡡࡷࡧࡧࠤࡘࡻࡣࡤࡧࡶࡷ࡫ࡻ࡬࡭ࡻ࠱ࠫࡠ"))
+		print(Fore.CYAN + Style.BRIGHT + l11lllll (u"ࠪࠤࡃࠦࡃࡰ࡯ࡥࡳࡌ࡫࡮ࠡࡤࡼࠤࡅ࡮ࡥࡸࡪࡲࡱࡺࡹࡴ࡯࠲ࡷࡦࡪࡴࡡ࡮ࡧࡧ࠲ࠥࡖࡥࡢࡥࡨࠥࠬࡡ"))
+def l11111l():
+	if os.path.isfile(l11lllll (u"ࠫ࠳࡬ࡩࡳࡵࡷࠫࡢ")):
+		l11lll11 = strtobool(open(l11lllll (u"ࠬ࠴ࡦࡪࡴࡶࡸࠬࡣ"), l11lllll (u"࠭ࡲࠨࡤ")).read().strip())
 	else:
-		l1l11l1l = True
-	return l1l11l1l
-def l1l1ll11():
-	print(Fore.CYAN + l111lll1 (u"ࠨࠢࡁࠤࡕࡲࡥࡢࡵࡨࠤࡆࡲ࡬ࡰࡹࠣࡗࡹࡵࡲࡢࡩࡨࠤࡕ࡫ࡲ࡮࡫ࡶࡷ࡮ࡵ࡮ࡴࠢࡌࡪࠥࡇࡳ࡬ࡧࡧࠤࡹࡵࠠࡥࡱࠣࡗࡴ࠴ࠧࡦ"))
+		l11lll11 = True
+	return l11lll11
+def l1ll1ll():
+	print(Fore.CYAN + l11lllll (u"ࠧࠡࡀࠣࡔࡱ࡫ࡡࡴࡧࠣࡅࡱࡲ࡯ࡸࠢࡖࡸࡴࡸࡡࡨࡧࠣࡔࡪࡸ࡭ࡪࡵࡶ࡭ࡴࡴࡳࠡࡋࡩࠤࡆࡹ࡫ࡦࡦࠣࡸࡴࠦࡤࡰࠢࡖࡳ࠳࠭ࡥ"))
 	time.sleep(2)
-	if not os.path.isdir(l1l1ll + l111lll1 (u"ࠩࡶࡸࡴࡸࡡࡨࡧࠪࡧ")):
-		os.system(l111lll1 (u"ࠪࡸࡪࡸ࡭ࡶࡺ࠰ࡷࡪࡺࡵࡱ࠯ࡶࡸࡴࡸࡡࡨࡧࠪࡨ"))
-	if os.path.isdir(l1l1ll + l111lll1 (u"ࠫࡸࡺ࡯ࡳࡣࡪࡩࠬࡩ")):
-		print(Fore.GREEN + l111lll1 (u"ࠬࠦ࠾ࠡࡕࡸࡧࡨ࡫ࡳࡴࡨࡸࡰࡱࡿࠠࡆࡵࡷࡥࡧࡲࡩࡴࡪࡨࡨ࡙ࠥࡴࡰࡴࡤ࡫ࡪ࠴ࠧࡪ"))
-		if not os.path.isdir(l1l1ll + l111lll1 (u"࠭ࡳࡵࡱࡵࡥ࡬࡫࠯ࡴࡪࡤࡶࡪࡪ࠯ࡗࡱ࡯ࡨࡪࡳ࡯ࡳࡶࡆࡳࡲࡳࡵ࡯࡫ࡷࡽ࠴ࡉ࡯࡮ࡤࡲࡋࡪࡴࠧ࡫")):
-			os.makedirs(l1l1ll + l111lll1 (u"ࠧࡴࡶࡲࡶࡦ࡭ࡥ࠰ࡵ࡫ࡥࡷ࡫ࡤ࠰ࡘࡲࡰࡩ࡫࡭ࡰࡴࡷࡇࡴࡳ࡭ࡶࡰ࡬ࡸࡾ࠵ࡃࡰ࡯ࡥࡳࡌ࡫࡮ࠨ࡬"))
-		if not os.path.isdir(l1l1ll + l111lll1 (u"ࠨࡵࡷࡳࡷࡧࡧࡦ࠱ࡶ࡬ࡦࡸࡥࡥ࠱࡙ࡳࡱࡪࡥ࡮ࡱࡵࡸࡈࡵ࡭࡮ࡷࡱ࡭ࡹࡿ࠯ࡄࡱࡰࡦࡴࡍࡥ࡯࠱ࡎࡩࡾࡽ࡯ࡳࡦࡶࠫ࡭")):
-			os.makedirs(l1l1ll + l111lll1 (u"ࠩࡶࡸࡴࡸࡡࡨࡧ࠲ࡷ࡭ࡧࡲࡦࡦ࠲࡚ࡴࡲࡤࡦ࡯ࡲࡶࡹࡉ࡯࡮࡯ࡸࡲ࡮ࡺࡹ࠰ࡅࡲࡱࡧࡵࡇࡦࡰ࠲ࡏࡪࡿࡷࡰࡴࡧࡷࠬ࡮"))
-		if not os.path.isdir(l1l1ll + l111lll1 (u"ࠪࡷࡹࡵࡲࡢࡩࡨ࠳ࡸ࡮ࡡࡳࡧࡧ࠳࡛ࡵ࡬ࡥࡧࡰࡳࡷࡺࡃࡰ࡯ࡰࡹࡳ࡯ࡴࡺ࠱ࡆࡳࡲࡨ࡯ࡈࡧࡱ࠳ࡈࡵ࡭ࡣࡱࡏ࡭ࡸࡺࡳࠨ࡯")):
-			os.makedirs(l1l1ll + l111lll1 (u"ࠫࡸࡺ࡯ࡳࡣࡪࡩ࠴ࡹࡨࡢࡴࡨࡨ࠴࡜࡯࡭ࡦࡨࡱࡴࡸࡴࡄࡱࡰࡱࡺࡴࡩࡵࡻ࠲ࡇࡴࡳࡢࡰࡉࡨࡲ࠴ࡉ࡯࡮ࡤࡲࡐ࡮ࡹࡴࡴࠩࡰ"))
-		print(Fore.GREEN + l111lll1 (u"ࠬࠦ࠾ࠡࡋࡱࡸࡪࡸ࡮ࡢ࡮ࠣࡗࡹࡵࡲࡢࡩࡨ࠳࡛ࡵ࡬ࡥࡧࡰࡳࡷࡺࡃࡰ࡯ࡰࡹࡳ࡯ࡴࡺࠢࡆࡶࡪࡧࡴࡦࡦࠣࡗࡺࡩࡣࡦࡵࡶࡪࡺࡲ࡬ࡺ࠰ࠪࡱ"))
-		print(Fore.GREEN + l111lll1 (u"࠭ࠠ࠿ࠢࡕࡩࡸࡺࡡࡳࡶ࡬ࡲ࡬࠴ࠧࡲ"))
+	if not os.path.isdir(l111111 + l11lllll (u"ࠨࡵࡷࡳࡷࡧࡧࡦࠩࡦ")):
+		os.system(l11lllll (u"ࠩࡷࡩࡷࡳࡵࡹ࠯ࡶࡩࡹࡻࡰ࠮ࡵࡷࡳࡷࡧࡧࡦࠩࡧ"))
+	if os.path.isdir(l111111 + l11lllll (u"ࠪࡷࡹࡵࡲࡢࡩࡨࠫࡨ")):
+		print(Fore.GREEN + l11lllll (u"ࠫࠥࡄࠠࡔࡷࡦࡧࡪࡹࡳࡧࡷ࡯ࡰࡾࠦࡅࡴࡶࡤࡦࡱ࡯ࡳࡩࡧࡧࠤࡘࡺ࡯ࡳࡣࡪࡩ࠳࠭ࡩ"))
+		if not os.path.isdir(l111111 + l11lllll (u"ࠬࡹࡴࡰࡴࡤ࡫ࡪ࠵ࡳࡩࡣࡵࡩࡩ࠵ࡖࡰ࡮ࡧࡩࡲࡵࡲࡵࡅࡲࡱࡲࡻ࡮ࡪࡶࡼ࠳ࡈࡵ࡭ࡣࡱࡊࡩࡳ࠭ࡪ")):
+			os.makedirs(l111111 + l11lllll (u"࠭ࡳࡵࡱࡵࡥ࡬࡫࠯ࡴࡪࡤࡶࡪࡪ࠯ࡗࡱ࡯ࡨࡪࡳ࡯ࡳࡶࡆࡳࡲࡳࡵ࡯࡫ࡷࡽ࠴ࡉ࡯࡮ࡤࡲࡋࡪࡴࠧ࡫"))
+		if not os.path.isdir(l111111 + l11lllll (u"ࠧࡴࡶࡲࡶࡦ࡭ࡥ࠰ࡵ࡫ࡥࡷ࡫ࡤ࠰ࡘࡲࡰࡩ࡫࡭ࡰࡴࡷࡇࡴࡳ࡭ࡶࡰ࡬ࡸࡾ࠵ࡃࡰ࡯ࡥࡳࡌ࡫࡮࠰ࡍࡨࡽࡼࡵࡲࡥࡵࠪ࡬")):
+			os.makedirs(l111111 + l11lllll (u"ࠨࡵࡷࡳࡷࡧࡧࡦ࠱ࡶ࡬ࡦࡸࡥࡥ࠱࡙ࡳࡱࡪࡥ࡮ࡱࡵࡸࡈࡵ࡭࡮ࡷࡱ࡭ࡹࡿ࠯ࡄࡱࡰࡦࡴࡍࡥ࡯࠱ࡎࡩࡾࡽ࡯ࡳࡦࡶࠫ࡭"))
+		if not os.path.isdir(l111111 + l11lllll (u"ࠩࡶࡸࡴࡸࡡࡨࡧ࠲ࡷ࡭ࡧࡲࡦࡦ࠲࡚ࡴࡲࡤࡦ࡯ࡲࡶࡹࡉ࡯࡮࡯ࡸࡲ࡮ࡺࡹ࠰ࡅࡲࡱࡧࡵࡇࡦࡰ࠲ࡇࡴࡳࡢࡰࡎ࡬ࡷࡹࡹࠧ࡮")):
+			os.makedirs(l111111 + l11lllll (u"ࠪࡷࡹࡵࡲࡢࡩࡨ࠳ࡸ࡮ࡡࡳࡧࡧ࠳࡛ࡵ࡬ࡥࡧࡰࡳࡷࡺࡃࡰ࡯ࡰࡹࡳ࡯ࡴࡺ࠱ࡆࡳࡲࡨ࡯ࡈࡧࡱ࠳ࡈࡵ࡭ࡣࡱࡏ࡭ࡸࡺࡳࠨ࡯"))
+		print(Fore.GREEN + l11lllll (u"ࠫࠥࡄࠠࡊࡰࡷࡩࡷࡴࡡ࡭ࠢࡖࡸࡴࡸࡡࡨࡧ࠲࡚ࡴࡲࡤࡦ࡯ࡲࡶࡹࡉ࡯࡮࡯ࡸࡲ࡮ࡺࡹࠡࡅࡵࡩࡦࡺࡥࡥࠢࡖࡹࡨࡩࡥࡴࡵࡩࡹࡱࡲࡹ࠯ࠩࡰ"))
+		print(Fore.GREEN + l11lllll (u"ࠬࠦ࠾ࠡࡔࡨࡷࡹࡧࡲࡵ࡫ࡱ࡫࠳࠭ࡱ"))
 		time.sleep(1.5)
-		os.system(l111lll1 (u"ࠧࡤ࡮ࡨࡥࡷ࠭ࡳ"))
-		open(l111lll1 (u"ࠨ࠰ࡩ࡭ࡷࡹࡴࠨࡴ"), l111lll1 (u"ࠩࡺࠫࡵ")).write(l111lll1 (u"ࠪࡊࡦࡲࡳࡦࠩࡶ"))
-def l11l1(l1l111ll):
-	if l1l111ll != l111lll1 (u"ࠫࡦ࡜ࡡࡅࡃࠣ࡯ࡊࡊࡡࡗࡴࡄࠫࡷ"):
-		l1l111ll = float(l1l111ll)
-		l1lll1l1 = float(requests.get(l111lll1 (u"ࠬ࡮ࡴࡵࡲࡶ࠾࠴࠵ࡲࡢࡹ࠱࡫࡮ࡺࡨࡶࡤࡸࡷࡪࡸࡣࡰࡰࡷࡩࡳࡺ࠮ࡤࡱࡰ࠳࡛ࡵ࡬ࡥࡧࡰࡳࡷࡺࡃࡰ࡯ࡰࡹࡳ࡯ࡴࡺ࠱ࡆࡳࡲࡨ࡯ࡈࡧࡱ࠳ࡲࡧࡳࡵࡧࡵ࠳࠳ࡼࡥࡳࡵ࡬ࡳࡳ࠭ࡸ")).text.strip())
-		if l1lll1l1 > l1l111ll:
-			l1l1l11l = str(requests.get(l111lll1 (u"࠭ࡨࡵࡶࡳࡷ࠿࠵࠯ࡳࡣࡺ࠲࡬࡯ࡴࡩࡷࡥࡹࡸ࡫ࡲࡤࡱࡱࡸࡪࡴࡴ࠯ࡥࡲࡱ࠴࡜࡯࡭ࡦࡨࡱࡴࡸࡴࡄࡱࡰࡱࡺࡴࡩࡵࡻ࠲ࡇࡴࡳࡢࡰࡉࡨࡲ࠴ࡳࡡࡴࡶࡨࡶ࠴࠴ࡣࡩࡣࡱ࡫ࡪࡲ࡯ࡨࠩࡹ")).text.strip())
-			print(Fore.GREEN + Style.BRIGHT + l111lll1 (u"ࠧࠡࡀ࡙ࠣࡵࡪࡡࡵࡧࠣࡅࡻࡧࡩ࡭ࡣࡥࡰࡪ࠴࡜࡯ࠩࡺ"))
+		os.system(l11lllll (u"࠭ࡣ࡭ࡧࡤࡶࠬࡲ"))
+		open(l11lllll (u"ࠧ࠯ࡨ࡬ࡶࡸࡺࠧࡳ"), l11lllll (u"ࠨࡹࠪࡴ")).write(l11lllll (u"ࠩࡉࡥࡱࡹࡥࠨࡵ"))
+def l111l1l(l11l11):
+	if l11l11 != l11lllll (u"ࠪࡥ࡛ࡧࡄࡂࠢ࡮ࡉࡉࡧࡖࡳࡃࠪࡶ"):
+		l11l11 = float(l11l11)
+		l1l11l1 = float(requests.get(l11lllll (u"ࠫ࡭ࡺࡴࡱࡵ࠽࠳࠴ࡸࡡࡸ࠰ࡪ࡭ࡹ࡮ࡵࡣࡷࡶࡩࡷࡩ࡯࡯ࡶࡨࡲࡹ࠴ࡣࡰ࡯࠲࡚ࡴࡲࡤࡦ࡯ࡲࡶࡹࡉ࡯࡮࡯ࡸࡲ࡮ࡺࡹ࠰ࡅࡲࡱࡧࡵࡇࡦࡰ࠲ࡱࡦࡹࡴࡦࡴ࠲࠲ࡻ࡫ࡲࡴ࡫ࡲࡲࠬࡷ")).text.strip())
+		if l1l11l1 > l11l11:
+			l1lll11l = str(requests.get(l11lllll (u"ࠬ࡮ࡴࡵࡲࡶ࠾࠴࠵ࡲࡢࡹ࠱࡫࡮ࡺࡨࡶࡤࡸࡷࡪࡸࡣࡰࡰࡷࡩࡳࡺ࠮ࡤࡱࡰ࠳࡛ࡵ࡬ࡥࡧࡰࡳࡷࡺࡃࡰ࡯ࡰࡹࡳ࡯ࡴࡺ࠱ࡆࡳࡲࡨ࡯ࡈࡧࡱ࠳ࡲࡧࡳࡵࡧࡵ࠳࠳ࡩࡨࡢࡰࡪࡩࡱࡵࡧࠨࡸ")).text.strip())
+			print(Fore.GREEN + Style.BRIGHT + l11lllll (u"࠭ࠠ࠿ࠢࡘࡴࡩࡧࡴࡦࠢࡄࡺࡦ࡯࡬ࡢࡤ࡯ࡩ࠳ࡢ࡮ࠨࡹ"))
 			time.sleep(0.7)
-			l1l11111 = input(Fore.GREEN + Style.NORMAL + l111lll1 (u"ࠨࠢࡁࠤࡈ࡮ࡡ࡯ࡩࡨࡰࡴ࡭࠺ࠡ࡞ࡱࡠࡳ࠭ࡻ") + Style.DIM + l1l1l11l + Fore.YELLOW + Style.BRIGHT + l111lll1 (u"ࠩ࡟ࡲࡡࡴࠠ࠿ࠢࡇࡳࠥ࡟࡯ࡶ࡚ࠢࡥࡳࡺࠠࡵࡱ࡙ࠣࡵࡪࡡࡵࡧࠣࡒࡴࡽ࠿ࠡ࡝ࠪࡼ") + Fore.GREEN + l111lll1 (u"ࠪ࡝ࠬࡽ") + Fore.YELLOW + l111lll1 (u"ࠫ࠴࠭ࡾ") + Fore.RED + l111lll1 (u"ࠬࡔࠧࡿ") + Fore.YELLOW + l111lll1 (u"࠭࡝ࠡࠩࢀ") + Style.RESET_ALL)
-			if l1l11111.lower() == l111lll1 (u"ࠧࡺࠩࢁ"):
-				print(Fore.GREEN + Style.BRIGHT + l111lll1 (u"ࠨࠢࡁࠤࡎࡴࡩࡵ࡫ࡤࡸ࡮ࡴࡧࠡࡗࡳࡨࡦࡺࡥ࠯ࠩࢂ"))
-				os.system(l111lll1 (u"ࠩࡪ࡭ࡹࠦࡲࡦࡵࡨࡸࠥ࠳࠭ࡩࡣࡵࡨࠬࢃ"))
-				os.system(l111lll1 (u"ࠪ࡫࡮ࡺࠠࡱࡷ࡯ࡰࠥࡵࡲࡪࡩ࡬ࡲࠥࡳࡡࡴࡶࡨࡶࠬࢄ"))
+			l1l1l1ll = input(Fore.GREEN + Style.NORMAL + l11lllll (u"ࠧࠡࡀࠣࡇ࡭ࡧ࡮ࡨࡧ࡯ࡳ࡬ࡀࠠ࡝ࡰ࡟ࡲࠬࡺ") + Style.DIM + l1lll11l + Fore.YELLOW + Style.BRIGHT + l11lllll (u"ࠨ࡞ࡱࡠࡳࠦ࠾ࠡࡆࡲࠤ࡞ࡵࡵ࡙ࠡࡤࡲࡹࠦࡴࡰࠢࡘࡴࡩࡧࡴࡦࠢࡑࡳࡼࡅࠠ࡜ࠩࡻ") + Fore.GREEN + l11lllll (u"ࠩ࡜ࠫࡼ") + Fore.YELLOW + l11lllll (u"ࠪ࠳ࠬࡽ") + Fore.RED + l11lllll (u"ࠫࡓ࠭ࡾ") + Fore.YELLOW + l11lllll (u"ࠬࡣࠠࠨࡿ") + Style.RESET_ALL)
+			if l1l1l1ll.lower() == l11lllll (u"࠭ࡹࠨࢀ"):
+				print(Fore.GREEN + Style.BRIGHT + l11lllll (u"ࠧࠡࡀࠣࡍࡳ࡯ࡴࡪࡣࡷ࡭ࡳ࡭ࠠࡖࡲࡧࡥࡹ࡫࠮ࠨࢁ"))
+				os.system(l11lllll (u"ࠨࡩ࡬ࡸࠥࡸࡥࡴࡧࡷࠤ࠲࠳ࡨࡢࡴࡧࠫࢂ"))
+				os.system(l11lllll (u"ࠩࡪ࡭ࡹࠦࡰࡶ࡮࡯ࠤࡴࡸࡩࡨ࡫ࡱࠤࡲࡧࡳࡵࡧࡵࠫࢃ"))
 				time.sleep(5)
-				print(Fore.GREEN + Style.BRIGHT + l111lll1 (u"ࠫࠥࡄࠠࡖࡲࡧࡥࡹ࡫ࠠࡄࡱࡰࡴࡱ࡫ࡴࡦ࠰ࠪࢅ"))
-				print(Fore.GREEN + Style.BRIGHT + l111lll1 (u"ࠬࠦ࠾ࠡࡒ࡯ࡩࡦࡹࡥࠡࡔࡨࡷࡹࡧࡲࡵࠢࡷ࡬ࡪࠦࡐࡳࡱࡪࡶࡦࡳࠠࡵࡱࠣࡍࡳࡩ࡯ࡳࡲࡲࡶࡦࡺࡥࠡࡶ࡫ࡩ࡛ࠥࡰࡥࡣࡷࡩ࠳࠭ࢆ"))
-		elif l1lll1l1 == l1l111ll:
-			print(Fore.GREEN + Style.DIM + l111lll1 (u"ࠨࠠ࠿ࠢ࡜ࡳࡺ࠭ࡲࡦࠢࡄࡰࡷ࡫ࡡࡥࡻࠣࡳࡳࠦࡴࡩࡧࠣࡐࡦࡺࡥࡴࡶ࡚ࠣࡪࡸࡳࡪࡱࡱ࠲ࠥࡉࡨࡦࡧࡵࡷࠦࠨࢇ"))
-		elif l1lll1l1 < l1l111ll:
-			l111l1l = os.getcwd()
-			os.system(l111lll1 (u"ࠧࡳ࡯ࠣ࠱ࡷ࡬ࠠࠨ࢈") + l111l1l)
-			os.system(l111lll1 (u"ࠨࡴࡰࠤ࠲ࡸࡦࠡ࠱ࡶࡨࡨࡧࡲࡥ࠱࡙ࡳࡱࡪࡥ࡮ࡱࡵࡸࡈࡵ࡭࡮ࡷࡱ࡭ࡹࡿ࠯ࡄࡱࡰࡦࡴࡍࡥ࡯ࠩࢉ"))
-			print(Fore.RED + Style.BRIGHT + l111lll1 (u"ࠩࠣࡂࠥࡓ࡯ࡥ࡫ࡩ࡭ࡨࡧࡴࡪࡱࡱࡷࠥࡺ࡯ࠡࡶ࡫ࡩࠥࡌࡩ࡭ࡧࡶࡽࡸࡺࡥ࡮ࠢࡋࡥࡻ࡫ࠠࡃࡧࡨࡲࠥࡊࡥࡵࡧࡦࡸࡪࡪ࠮ࠡࡃ࡯ࡰࠥࡊࡡࡵࡣࠣ࡬ࡦࡹࠠࡃࡧࡨࡲࠥࡋࡲࡢࡵࡨࡨࠥࡧࡳࠡࡣࡱࠤࡆࡴࡴࡪࠢࡓ࡭ࡷࡧࡣࡺࠢࡐࡩࡦࡹࡵࡳࡧ࠱ࠫࢊ"))
+				print(Fore.GREEN + Style.BRIGHT + l11lllll (u"ࠪࠤࡃࠦࡕࡱࡦࡤࡸࡪࠦࡃࡰ࡯ࡳࡰࡪࡺࡥ࠯ࠩࢄ"))
+				print(Fore.GREEN + Style.BRIGHT + l11lllll (u"ࠫࠥࡄࠠࡑ࡮ࡨࡥࡸ࡫ࠠࡓࡧࡶࡸࡦࡸࡴࠡࡶ࡫ࡩࠥࡖࡲࡰࡩࡵࡥࡲࠦࡴࡰࠢࡌࡲࡨࡵࡲࡱࡱࡵࡥࡹ࡫ࠠࡵࡪࡨࠤ࡚ࡶࡤࡢࡶࡨ࠲ࠬࢅ"))
+		elif l1l11l1 == l11l11:
+			print(Fore.GREEN + Style.DIM + l11lllll (u"ࠧࠦ࠾࡛ࠡࡲࡹࠬࡸࡥࠡࡃ࡯ࡶࡪࡧࡤࡺࠢࡲࡲࠥࡺࡨࡦࠢࡏࡥࡹ࡫ࡳࡵ࡙ࠢࡩࡷࡹࡩࡰࡰ࠱ࠤࡈ࡮ࡥࡦࡴࡶࠥࠧࢆ"))
+		elif l1l11l1 < l11l11:
+			l11lll1 = os.getcwd()
+			os.system(l11lllll (u"࠭ࡲ࡮ࠢ࠰ࡶ࡫ࠦࠧࢇ") + l11lll1)
+			os.system(l11lllll (u"ࠧࡳ࡯ࠣ࠱ࡷ࡬ࠠ࠰ࡵࡧࡧࡦࡸࡤ࠰ࡘࡲࡰࡩ࡫࡭ࡰࡴࡷࡇࡴࡳ࡭ࡶࡰ࡬ࡸࡾ࠵ࡃࡰ࡯ࡥࡳࡌ࡫࡮ࠨ࢈"))
+			print(Fore.RED + Style.BRIGHT + l11lllll (u"ࠨࠢࡁࠤࡒࡵࡤࡪࡨ࡬ࡧࡦࡺࡩࡰࡰࡶࠤࡹࡵࠠࡵࡪࡨࠤࡋ࡯࡬ࡦࡵࡼࡷࡹ࡫࡭ࠡࡊࡤࡺࡪࠦࡂࡦࡧࡱࠤࡉ࡫ࡴࡦࡥࡷࡩࡩ࠴ࠠࡂ࡮࡯ࠤࡉࡧࡴࡢࠢ࡫ࡥࡸࠦࡂࡦࡧࡱࠤࡊࡸࡡࡴࡧࡧࠤࡦࡹࠠࡢࡰࠣࡅࡳࡺࡩࠡࡒ࡬ࡶࡦࡩࡹࠡࡏࡨࡥࡸࡻࡲࡦ࠰ࠪࢉ"))
 			exit()
 	else:
-		print(l111lll1 (u"ࠪࠤࡃࠦࡄࡦࡸࡨࡰࡴࡶࡥࡳࠢࡈࡼࡪࡳࡰࡵ࡫ࡲࡲ࠳࠭ࢋ"))
-def l1llll1():
-	if not os.path.isdir(l1l1ll + l111lll1 (u"ࠫࡸࡺ࡯ࡳࡣࡪࡩࠬࢌ")):
-		os.system(l111lll1 (u"ࠬࡺࡥࡳ࡯ࡸࡼ࠲ࡹࡥࡵࡷࡳ࠱ࡸࡺ࡯ࡳࡣࡪࡩࠬࢍ"))
-	if os.path.isdir(l1l1ll + l111lll1 (u"࠭ࡳࡵࡱࡵࡥ࡬࡫ࠧࢎ")):
-		if not os.path.isdir(l1l1ll + l111lll1 (u"ࠧࡴࡶࡲࡶࡦ࡭ࡥ࠰ࡵ࡫ࡥࡷ࡫ࡤ࠰ࡘࡲࡰࡩ࡫࡭ࡰࡴࡷࡇࡴࡳ࡭ࡶࡰ࡬ࡸࡾ࠵ࡃࡰ࡯ࡥࡳࡌ࡫࡮ࠨ࢏")):
-			os.makedirs(l1l1ll + l111lll1 (u"ࠨࡵࡷࡳࡷࡧࡧࡦ࠱ࡶ࡬ࡦࡸࡥࡥ࠱࡙ࡳࡱࡪࡥ࡮ࡱࡵࡸࡈࡵ࡭࡮ࡷࡱ࡭ࡹࡿ࠯ࡄࡱࡰࡦࡴࡍࡥ࡯ࠩ࢐"))
-		if not os.path.isdir(l1l1ll + l111lll1 (u"ࠩࡶࡸࡴࡸࡡࡨࡧ࠲ࡷ࡭ࡧࡲࡦࡦ࠲࡚ࡴࡲࡤࡦ࡯ࡲࡶࡹࡉ࡯࡮࡯ࡸࡲ࡮ࡺࡹ࠰ࡅࡲࡱࡧࡵࡇࡦࡰ࠲ࡏࡪࡿࡷࡰࡴࡧࡷࠬ࢑")):
-			os.makedirs(l1l1ll + l111lll1 (u"ࠪࡷࡹࡵࡲࡢࡩࡨ࠳ࡸ࡮ࡡࡳࡧࡧ࠳࡛ࡵ࡬ࡥࡧࡰࡳࡷࡺࡃࡰ࡯ࡰࡹࡳ࡯ࡴࡺ࠱ࡆࡳࡲࡨ࡯ࡈࡧࡱ࠳ࡐ࡫ࡹࡸࡱࡵࡨࡸ࠭࢒"))
-		if not os.path.isdir(l1l1ll + l111lll1 (u"ࠫࡸࡺ࡯ࡳࡣࡪࡩ࠴ࡹࡨࡢࡴࡨࡨ࠴࡜࡯࡭ࡦࡨࡱࡴࡸࡴࡄࡱࡰࡱࡺࡴࡩࡵࡻ࠲ࡇࡴࡳࡢࡰࡉࡨࡲ࠴ࡉ࡯࡮ࡤࡲࡐ࡮ࡹࡴࡴࠩ࢓")):
-			os.makedirs(l1l1ll + l111lll1 (u"ࠬࡹࡴࡰࡴࡤ࡫ࡪ࠵ࡳࡩࡣࡵࡩࡩ࠵ࡖࡰ࡮ࡧࡩࡲࡵࡲࡵࡅࡲࡱࡲࡻ࡮ࡪࡶࡼ࠳ࡈࡵ࡭ࡣࡱࡊࡩࡳ࠵ࡃࡰ࡯ࡥࡳࡑ࡯ࡳࡵࡵࠪ࢔"))
-		if not os.path.isdir(l1l1ll + l111lll1 (u"࠭ࡳࡵࡱࡵࡥ࡬࡫࠯ࡴࡪࡤࡶࡪࡪ࠯ࡗࡱ࡯ࡨࡪࡳ࡯ࡳࡶࡆࡳࡲࡳࡵ࡯࡫ࡷࡽ࠴ࡉ࡯࡮ࡤࡲࡋࡪࡴ࠯ࡑࡴࡲࡼࡾࡒࡩࡴࡶࡶࠫ࢕")):
-			os.makedirs(l1l1ll + l111lll1 (u"ࠧࡴࡶࡲࡶࡦ࡭ࡥ࠰ࡵ࡫ࡥࡷ࡫ࡤ࠰ࡘࡲࡰࡩ࡫࡭ࡰࡴࡷࡇࡴࡳ࡭ࡶࡰ࡬ࡸࡾ࠵ࡃࡰ࡯ࡥࡳࡌ࡫࡮࠰ࡒࡵࡳࡽࡿࡌࡪࡵࡷࡷࠬ࢖"))
-def l1l11l11():
-	gist = b'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2REMXNQTEJ4Cg==' #l1l1lll://l1lllll.l1llll.l1l111/l1lll11/9feb808d806d23622be56559c4bc8334/raw/l11ll1ll
-	print(Fore.RED + Style.BRIGHT + l111lll1 (u"ࠩࠣࡂࠥࡇࡵࡵࡪࡲࡶ࡮ࢀࡡࡵ࡫ࡲࡲࠥࡘࡥࡲࡷ࡬ࡶࡪࡪ࠮ࠡࡒ࡯ࡩࡦࡹࡥࠡࡘࡨࡶ࡮࡬ࡹ࡛ࠡࡲࡹࡷࠦࡃࡳࡧࡧࡩࡳࡺࡩࡢ࡮ࡶ࠲ࠬ࢘"))
-	uname = input(Fore.GREEN + Style.DIM + l111lll1 (u"ࠪࠤࡃࠦࡕࡴࡧࡵࡲࡦࡳࡥࠡ࠼࢙ࠣࠫ") + Fore.RESET + Style.DIM)
-	pwd = hashlib.sha256(getpass.getpass(Fore.GREEN + Style.DIM + l111lll1 (u"ࠫࠥࡄࠠࡑࡣࡶࡷࡼࡵࡲࡥࠢ࠽ࠤ࢚ࠬ") + Fore.RESET + Style.DIM).encode(l111lll1 (u"ࠬࡧࡳࡤ࡫࡬࢛ࠫ"))).hexdigest()
-	l11l11l1 = requests.get(base64.b64decode(gist).decode(l111lll1 (u"࠭ࡡࡴࡥ࡬࡭ࠬ࢜"))).text
-	for x in l11l11l1.split(l111lll1 (u"ࠧ࡝ࡰࠪ࢝")):
+		print(l11lllll (u"ࠩࠣࡂࠥࡊࡥࡷࡧ࡯ࡳࡵ࡫ࡲࠡࡇࡻࡩࡲࡶࡴࡪࡱࡱ࠲ࠬࢊ"))
+def l111ll():
+	if not os.path.isdir(l111111 + l11lllll (u"ࠪࡷࡹࡵࡲࡢࡩࡨࠫࢋ")):
+		os.system(l11lllll (u"ࠫࡹ࡫ࡲ࡮ࡷࡻ࠱ࡸ࡫ࡴࡶࡲ࠰ࡷࡹࡵࡲࡢࡩࡨࠫࢌ"))
+	if os.path.isdir(l111111 + l11lllll (u"ࠬࡹࡴࡰࡴࡤ࡫ࡪ࠭ࢍ")):
+		if not os.path.isdir(l111111 + l11lllll (u"࠭ࡳࡵࡱࡵࡥ࡬࡫࠯ࡴࡪࡤࡶࡪࡪ࠯ࡗࡱ࡯ࡨࡪࡳ࡯ࡳࡶࡆࡳࡲࡳࡵ࡯࡫ࡷࡽ࠴ࡉ࡯࡮ࡤࡲࡋࡪࡴࠧࢎ")):
+			os.makedirs(l111111 + l11lllll (u"ࠧࡴࡶࡲࡶࡦ࡭ࡥ࠰ࡵ࡫ࡥࡷ࡫ࡤ࠰ࡘࡲࡰࡩ࡫࡭ࡰࡴࡷࡇࡴࡳ࡭ࡶࡰ࡬ࡸࡾ࠵ࡃࡰ࡯ࡥࡳࡌ࡫࡮ࠨ࢏"))
+		if not os.path.isdir(l111111 + l11lllll (u"ࠨࡵࡷࡳࡷࡧࡧࡦ࠱ࡶ࡬ࡦࡸࡥࡥ࠱࡙ࡳࡱࡪࡥ࡮ࡱࡵࡸࡈࡵ࡭࡮ࡷࡱ࡭ࡹࡿ࠯ࡄࡱࡰࡦࡴࡍࡥ࡯࠱ࡎࡩࡾࡽ࡯ࡳࡦࡶࠫ࢐")):
+			os.makedirs(l111111 + l11lllll (u"ࠩࡶࡸࡴࡸࡡࡨࡧ࠲ࡷ࡭ࡧࡲࡦࡦ࠲࡚ࡴࡲࡤࡦ࡯ࡲࡶࡹࡉ࡯࡮࡯ࡸࡲ࡮ࡺࡹ࠰ࡅࡲࡱࡧࡵࡇࡦࡰ࠲ࡏࡪࡿࡷࡰࡴࡧࡷࠬ࢑"))
+		if not os.path.isdir(l111111 + l11lllll (u"ࠪࡷࡹࡵࡲࡢࡩࡨ࠳ࡸ࡮ࡡࡳࡧࡧ࠳࡛ࡵ࡬ࡥࡧࡰࡳࡷࡺࡃࡰ࡯ࡰࡹࡳ࡯ࡴࡺ࠱ࡆࡳࡲࡨ࡯ࡈࡧࡱ࠳ࡈࡵ࡭ࡣࡱࡏ࡭ࡸࡺࡳࠨ࢒")):
+			os.makedirs(l111111 + l11lllll (u"ࠫࡸࡺ࡯ࡳࡣࡪࡩ࠴ࡹࡨࡢࡴࡨࡨ࠴࡜࡯࡭ࡦࡨࡱࡴࡸࡴࡄࡱࡰࡱࡺࡴࡩࡵࡻ࠲ࡇࡴࡳࡢࡰࡉࡨࡲ࠴ࡉ࡯࡮ࡤࡲࡐ࡮ࡹࡴࡴࠩ࢓"))
+		if not os.path.isdir(l111111 + l11lllll (u"ࠬࡹࡴࡰࡴࡤ࡫ࡪ࠵ࡳࡩࡣࡵࡩࡩ࠵ࡖࡰ࡮ࡧࡩࡲࡵࡲࡵࡅࡲࡱࡲࡻ࡮ࡪࡶࡼ࠳ࡈࡵ࡭ࡣࡱࡊࡩࡳ࠵ࡐࡳࡱࡻࡽࡑ࡯ࡳࡵࡵࠪ࢔")):
+			os.makedirs(l111111 + l11lllll (u"࠭ࡳࡵࡱࡵࡥ࡬࡫࠯ࡴࡪࡤࡶࡪࡪ࠯ࡗࡱ࡯ࡨࡪࡳ࡯ࡳࡶࡆࡳࡲࡳࡵ࡯࡫ࡷࡽ࠴ࡉ࡯࡮ࡤࡲࡋࡪࡴ࠯ࡑࡴࡲࡼࡾࡒࡩࡴࡶࡶࠫ࢕"))
+def l11ll11():
+	print(Fore.CYAN + " > " + Back.CYAN + Fore.BLACK + "ComboGen is no longer freely accessible.")
+	print(Fore.CYAN + " > " + Back.CYAN + Fore.BLACK + "Authorization can be Purchased for 5$.")
+	print(Fore.CYAN + " > " + Back.CYAN + Fore.BLACK + "To Purchase, contact @hewhomustn0tbenamed.")
+	print(Fore.CYAN + " > " + Back.CYAN + Fore.BLACK + "( Telegram : https://t.me/hewhomustn0tbenamed )." + Style.RESET_ALL)
+	l11l1l = b'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2REMXNQTEJ4'
+	print(Fore.RED + Style.BRIGHT + l11lllll (u"ࠨࠢࡁࠤࡆࡻࡴࡩࡱࡵ࡭ࡿࡧࡴࡪࡱࡱࠤࡗ࡫ࡱࡶ࡫ࡵࡩࡩ࠴ࠠࡑ࡮ࡨࡥࡸ࡫ࠠࡗࡧࡵ࡭࡫ࡿ࡚ࠠࡱࡸࡶࠥࡉࡲࡦࡦࡨࡲࡹ࡯ࡡ࡭ࡵ࠱ࠫࢗ"))
+	uname = input(Fore.GREEN + Style.DIM + l11lllll (u"ࠩࠣࡂ࡛ࠥࡳࡦࡴࡱࡥࡲ࡫ࠠ࠻ࠢࠪ࢘") + Fore.RESET + Style.DIM)
+	pwd = hashlib.sha256(getpass.getpass(Fore.GREEN + Style.DIM + l11lllll (u"ࠪࠤࡃࠦࡐࡢࡵࡶࡻࡴࡸࡤࠡ࠼࢙ࠣࠫ") + Fore.RESET + Style.DIM).encode(l11lllll (u"ࠫࡦࡹࡣࡪ࡫࢚ࠪ"))).hexdigest()
+	l1ll1ll1 = requests.get(base64.b64decode(l11l1l).decode(l11lllll (u"ࠬࡧࡳࡤ࡫࡬࢛ࠫ"))).text
+	for x in l1ll1ll1.split(l11lllll (u"࠭࡜࡯ࠩ࢜")):
 		if uname in x:
-			if pwd == x.split(l111lll1 (u"ࠣ࠼ࠥ࢞"))[1]:
-				print(Fore.GREEN + Style.BRIGHT + l111lll1 (u"ࠩࠣࡂࠥࡇࡵࡵࡪࡲࡶ࡮ࢀࡡࡵ࡫ࡲࡲ࡙ࠥࡵࡤࡥࡨࡷࡸ࡬ࡵ࡭࠰ࠪ࢟"))
+			if pwd.strip() == x.split(l11lllll (u"ࠢ࠻ࠤ࢝"))[1].strip():
+				print(Fore.GREEN + Style.BRIGHT + l11lllll (u"ࠨࠢࡁࠤࡆࡻࡴࡩࡱࡵ࡭ࡿࡧࡴࡪࡱࡱࠤࡘࡻࡣࡤࡧࡶࡷ࡫ࡻ࡬࠯ࠩ࢞"))
 				return
-	print(Fore.RED + Style.BRIGHT + l111lll1 (u"ࠪࠤࡃࠦࡁࡶࡶ࡫ࡳࡷ࡯ࡺࡢࡶ࡬ࡳࡳࠦࡕ࡯ࡵࡸࡧࡨ࡫ࡳࡴࡨࡸࡰ࠳ࠦࡐࡳࡱࡪࡶࡦࡳࠠࡕࡧࡵࡱ࡮ࡴࡡࡵࡧࡧ࠲ࠬࢠ"))
-	print(Fore.RED + Style.DIM + l111lll1 (u"ࠫࠥࡄࠠࡄࡱࡰࡦࡴࡹࠠࡄࡱ࡯ࡰࡪࡩࡴࡦࡦࠣ࠾ࠥ࠶ࠧࢡ"))
-	os.system(l111lll1 (u"ࠬࡱࡩ࡭࡮ࠣࠫࢢ") + str(os.getpid()))
+	print(Fore.RED + Style.BRIGHT + l11lllll (u"ࠩࠣࡂࠥࡇࡵࡵࡪࡲࡶ࡮ࢀࡡࡵ࡫ࡲࡲ࡛ࠥ࡮ࡴࡷࡦࡧࡪࡹࡳࡧࡷ࡯࠲ࠥࡖࡲࡰࡩࡵࡥࡲࠦࡔࡦࡴࡰ࡭ࡳࡧࡴࡦࡦ࠱ࠫ࢟"))
+	print(Fore.RED + Style.DIM + l11lllll (u"ࠪࠤࡃࠦࡃࡰ࡯ࡥࡳࡸࠦࡃࡰ࡮࡯ࡩࡨࡺࡥࡥࠢ࠽ࠤ࠵࠭ࢠ"))
+	os.system(l11lllll (u"ࠫࡰ࡯࡬࡭ࠢࠪࢡ") + str(os.getpid()))
 	exit()
 try:
-	l1l11l11()
-	l1l111ll = open(l111lll1 (u"࠭࠮ࡷࡧࡵࡷ࡮ࡵ࡮ࠨࢣ"), l111lll1 (u"ࠧࡳࠩࢤ")).read().strip()
-	l1llll1()
-	if l11lllll():
-		l1l1ll11()
-	print(Fore.CYAN + Style.NORMAL + l111lll1 (u"ࠨ࡞ࡱࡠࡹࡢࡴࠡࡡࡢࡣࡤࡥ࡟ࠡࠢࠣࠤࠥࠦࠠࠡࠢࠣࠤࡤࠦࠠࠡࠢࠣࠤࠥࠦ࡟ࡠࡡࡢࡣࡤࡢ࡮࡝ࡶ࡟ࡸࢁࠦࠠࠡࠢࠣࠤࢁࡥ࡟ࡠࠢࡢࡣࡤࡥ࡟ࡽࠢࡿࡣࡤࠦ࡟ࡠࡡࡿࠤࠥࠦ࡟ࡠࡡࡿࡣࡤࡥࠠࡠࡡࡢࡠࡳࡢࡴ࡝ࡶࡿࠤࠥࠦ࠭࠮࠯ࡿࠤ࠳ࠦࡼ࡝ࡶࠣࢀࠥ࠴ࠠࠡࡾࠣ࠲ࠥࢂࠠࠡࡾࠣࠤࠥࢂࠠ࠮ࡡࡿࠤࠥࠦࡼ࡝ࡰ࡟ࡸࡡࡺࡼࡠࡡࡢࡣࡤࡥࡼࡠࡡࡢࢀࡤࢂ࡟ࡽࡡࡿࡣࡤࡥ࡟ࡽࡡࡢࡣࢁࡥ࡟ࡠࡡࡢࡣࢁࡥ࡟ࡠࡾࡢࢀࡤࢂ࡜࡯࡞ࡱࡠࡹࡢࡴ࡝ࡶ࡟ࡸࡡࡺ࡜ࡵ࡞ࡷࠫࢥ") + Style.DIM + l111lll1 (u"ࠩ࡟ࡸࠥࡼࠧࢦ") + l1l111ll + l111lll1 (u"ࠪࠤࡧࡿࠠࡁࡪࡨࡻ࡭ࡵ࡭ࡶࡵࡷࡲ࠵ࡺࡢࡦࡰࡤࡱࡪࡪ࡜࡯࡞ࡱࡠࡳࠦ࠾ࠡࡉ࡬ࡸ࡭ࡻࡢ࠻ࠢ࡫ࡸࡹࡶࡳ࠻࠱࠲࡫࡮ࡺࡨࡶࡤ࠱ࡧࡴࡳ࠯ࡗࡱ࡯ࡨࡪࡳ࡯ࡳࡶࡆࡳࡲࡳࡵ࡯࡫ࡷࡽ࠴ࡉ࡯࡮ࡤࡲࡋࡪࡴ࡜࡯࡞ࡷࠫࢧ"))
+	l11ll11()
+	l11l11 = open(l11lllll (u"ࠬ࠴ࡶࡦࡴࡶ࡭ࡴࡴࠧࢢ"), l11lllll (u"࠭ࡲࠨࢣ")).read().strip()
+	l111ll()
+	if l11111l():
+		l1ll1ll()
+	print(Fore.CYAN + Style.NORMAL + l11lllll (u"ࠧ࡝ࡰ࡟ࡸࡡࡺࠠࡠࡡࡢࡣࡤࡥࠠࠡࠢࠣࠤࠥࠦࠠࠡࠢࠣࡣࠥࠦࠠࠡࠢࠣࠤࠥࡥ࡟ࡠࡡࡢࡣࡡࡴ࡜ࡵ࡞ࡷࢀࠥࠦࠠࠡࠢࠣࢀࡤࡥ࡟ࠡࡡࡢࡣࡤࡥࡼࠡࡾࡢࡣࠥࡥ࡟ࡠࡾࠣࠤࠥࡥ࡟ࡠࡾࡢࡣࡤࠦ࡟ࡠࡡ࡟ࡲࡡࡺ࡜ࡵࡾࠣࠤࠥ࠳࠭࠮ࡾࠣ࠲ࠥࢂ࡜ࡵࠢࡿࠤ࠳ࠦࠠࡽࠢ࠱ࠤࢁࠦࠠࡽࠢࠣࠤࢁࠦ࠭ࡠࡾࠣࠤࠥࢂ࡜࡯࡞ࡷࡠࡹࢂ࡟ࡠࡡࡢࡣࡤࢂ࡟ࡠࡡࡿࡣࢁࡥࡼࡠࡾࡢࡣࡤࡥࡼࡠࡡࡢࢀࡤࡥ࡟ࡠࡡࡢࢀࡤࡥ࡟ࡽࡡࡿࡣࢁࡢ࡮࡝ࡰ࡟ࡸࡡࡺ࡜ࡵ࡞ࡷࡠࡹࡢࡴ࡝ࡶࠪࢤ") + Style.DIM + l11lllll (u"ࠨ࡞ࡷࠤࡻ࠭ࢥ") + l11l11 + l11lllll (u"ࠩࠣࡦࡾࠦࡀࡩࡧࡺ࡬ࡴࡳࡵࡴࡶࡱ࠴ࡹࡨࡥ࡯ࡣࡰࡩࡩࡢ࡮࡝ࡰ࡟ࡲࠥࡄࠠࡈ࡫ࡷ࡬ࡺࡨ࠺ࠡࡪࡷࡸࡵࡹ࠺࠰࠱ࡪ࡭ࡹ࡮ࡵࡣ࠰ࡦࡳࡲ࠵ࡖࡰ࡮ࡧࡩࡲࡵࡲࡵࡅࡲࡱࡲࡻ࡮ࡪࡶࡼ࠳ࡈࡵ࡭ࡣࡱࡊࡩࡳࡢ࡮࡝ࡶࠪࢦ"))
 	time.sleep(2)
-	print(Fore.GREEN + Style.DIM + l111lll1 (u"ࠫࠥࡄࠠࡷࠩࢨ") + l1l111ll + l111lll1 (u"ࠬࠦࡄࡦࡸࡨࡰࡴࡶࡥࡥࠢࡥࡽࠥ࠭ࢩ") + Fore.GREEN + Style.BRIGHT + l111lll1 (u"࠭ࡀࡩࡧࡺ࡬ࡴࡳࡵࡴࡶࡱ࠴ࡹࡨࡥ࡯ࡣࡰࡩࡩ࠭ࢪ") + Style.RESET_ALL + Fore.GREEN + Style.DIM + l111lll1 (u"ࠧࠡࠪࡗࡩࡱ࡫ࡧࡳࡣࡰ࠭࠳࠭ࢫ"))
+	print(Fore.GREEN + Style.DIM + l11lllll (u"ࠪࠤࡃࠦࡶࠨࢧ") + l11l11 + l11lllll (u"ࠫࠥࡊࡥࡷࡧ࡯ࡳࡵ࡫ࡤࠡࡤࡼࠤࠬࢨ") + Fore.GREEN + Style.BRIGHT + l11lllll (u"ࠬࡆࡨࡦࡹ࡫ࡳࡲࡻࡳࡵࡰ࠳ࡸࡧ࡫࡮ࡢ࡯ࡨࡨࠬࢩ") + Style.RESET_ALL + Fore.GREEN + Style.DIM + l11lllll (u"࠭ࠠࠩࡖࡨࡰࡪ࡭ࡲࡢ࡯ࠬ࠲ࠬࢪ"))
 	time.sleep(1)
-	print(Fore.GREEN + Style.DIM + l111lll1 (u"ࠨࠢࡁࠤࡋࡵࡲࠡࡗࡳࡨࡦࡺࡥࡴࠢࠩࠤࡒࡵࡲࡦ࠮ࠣࡇ࡭࡫ࡣ࡬ࠢࡲࡹࡹ࠭ࢬ") + Fore.GREEN + Style.BRIGHT + l111lll1 (u"ࠩࠣࡄ࡛ࡵ࡬ࡥࡧࡰࡳࡷࡺࡎࡦࡹࡶࡰࡪࡺࡴࡦࡴࠪࢭ") + Style.RESET_ALL + Fore.GREEN + Style.DIM + l111lll1 (u"ࠪࠤ࡚࠭ࡥ࡭ࡧࡪࡶࡦࡳࠩ࠯ࠩࢮ"))
+	print(Fore.GREEN + Style.DIM + l11lllll (u"ࠧࠡࡀࠣࡊࡴࡸࠠࡖࡲࡧࡥࡹ࡫ࡳࠡࠨࠣࡑࡴࡸࡥ࠭ࠢࡆ࡬ࡪࡩ࡫ࠡࡱࡸࡸࠬࢫ") + Fore.GREEN + Style.BRIGHT + l11lllll (u"ࠨࠢࡃ࡚ࡴࡲࡤࡦ࡯ࡲࡶࡹࡔࡥࡸࡵ࡯ࡩࡹࡺࡥࡳࠩࢬ") + Style.RESET_ALL + Fore.GREEN + Style.DIM + l11lllll (u"࡙ࠩࠣࠬ࡫࡬ࡦࡩࡵࡥࡲ࠯࠮ࠨࢭ"))
 	time.sleep(2)
-	l11l1(l1l111ll)
-	l11llll1 = input(Fore.GREEN + Style.DIM + l111lll1 (u"ࠫࠥࡄࠠࡑࡴࡨࡷࡸࠦࡅ࡯ࡶࡨࡶࠥࡺ࡯ࠡࡅࡲࡲࡹ࡯࡮ࡶࡧ࠱ࠫࢯ") + Style.RESET_ALL)
-	print(Fore.GREEN + Style.DIM + l111lll1 (u"ࠬࡢ࡮ࠡࡀࠣࡐࡴࡧࡤࡪࡰࡪࠤࡐ࡫ࡹࡸࡱࡵࡨࡸ࠴࡜࡯ࠢࡁࠤࡕࡲࡥࡢࡵࡨࠤࡒࡵࡶࡦࠢࡷ࡬ࡪࠦࡋࡦࡻࡺࡳࡷࡪࡳࠡࡈ࡬ࡰࡪࠦࡴࡰࠩࢰ") + Style.BRIGHT + l111lll1 (u"࠭ࠠࡊࡰࡷࡩࡷࡴࡡ࡭ࠢࡖࡸࡴࡸࡡࡨࡧ࠲࡚ࡴࡲࡤࡦ࡯ࡲࡶࡹࡉ࡯࡮࡯ࡸࡲ࡮ࡺࡹ࠰ࡅࡲࡱࡧࡵࡇࡦࡰ࠲ࡏࡪࡿࡷࡰࡴࡧࡷࠬࢱ"))
+	l111l1l(l11l11)
+	l111l = input(Fore.GREEN + Style.DIM + l11lllll (u"ࠪࠤࡃࠦࡐࡳࡧࡶࡷࠥࡋ࡮ࡵࡧࡵࠤࡹࡵࠠࡄࡱࡱࡸ࡮ࡴࡵࡦ࠰ࠪࢮ") + Style.RESET_ALL)
+	print(Fore.GREEN + Style.DIM + l11lllll (u"ࠫࡡࡴࠠ࠿ࠢࡏࡳࡦࡪࡩ࡯ࡩࠣࡏࡪࡿࡷࡰࡴࡧࡷ࠳ࡢ࡮ࠡࡀࠣࡔࡱ࡫ࡡࡴࡧࠣࡑࡴࡼࡥࠡࡶ࡫ࡩࠥࡑࡥࡺࡹࡲࡶࡩࡹࠠࡇ࡫࡯ࡩࠥࡺ࡯ࠨࢯ") + Style.BRIGHT + l11lllll (u"ࠬࠦࡉ࡯ࡶࡨࡶࡳࡧ࡬ࠡࡕࡷࡳࡷࡧࡧࡦ࠱࡙ࡳࡱࡪࡥ࡮ࡱࡵࡸࡈࡵ࡭࡮ࡷࡱ࡭ࡹࡿ࠯ࡄࡱࡰࡦࡴࡍࡥ࡯࠱ࡎࡩࡾࡽ࡯ࡳࡦࡶࠫࢰ"))
 	time.sleep(4)
-	l11llll = l111lll1 (u"ࠧࠨࢲ")
-	l11ll1l1 = []
+	l1l1ll1l = l11lllll (u"࠭ࠧࢱ")
+	l11l1ll1 = []
 	while 1:
 		try:
-			l1l = SelectMenu()
-			l1ll1l1 = os.listdir(l1l111l1 + l111lll1 (u"ࠨࡍࡨࡽࡼࡵࡲࡥࡵࠪࢳ"))
-			l11l1l1l = {}
-			l11ll1l = []
-			for file in l1ll1l1:
-				if os.path.isfile(l1l111l1 + l111lll1 (u"ࠩࡎࡩࡾࡽ࡯ࡳࡦࡶ࠳ࠬࢴ") + file):
-					l1l11l = {l111lll1 (u"ࠪࡲࡦࡳࡥࠨࢵ"):file,
-					 l111lll1 (u"ࠫࡵࡧࡴࡩࠩࢶ"):l1l111l1 + l111lll1 (u"ࠬࡑࡥࡺࡹࡲࡶࡩࡹ࠯ࠨࢷ") + file}
-					l11l1l1l[file] = l1l11l
-					l11ll1l.append(l1l11l[l111lll1 (u"࠭࡮ࡢ࡯ࡨࠫࢸ")])
-			l11ll1l.append(l111lll1 (u"ࠧࡓࡧࡩࡶࡪࡹࡨࠡࡈ࡬ࡰࡪࠦࡌࡪࡵࡷࠫࢹ"))
-			l11ll1l.append(l111lll1 (u"ࠨࡇࡱࡸࡪࡸࠠࡌࡧࡼࡻࡴࡸࡤࡴࠢࡐࡥࡳࡻࡡ࡭࡮ࡼࠫࢺ"))
-			l1l.add_choices(l11ll1l)
-			l11llll = l1l.select(l111lll1 (u"ࠩࠣࡂࠥࡖ࡬ࡦࡣࡶࡩ࡙ࠥࡥ࡭ࡧࡦࡸࠥࡺࡨࡦࠢࡇࡩࡸ࡯ࡲࡦࡦࠣࡊ࡮ࡲࡥ࠯ࠩࢻ"))
-			if l11llll == l111lll1 (u"ࠪࡖࡪ࡬ࡲࡦࡵ࡫ࠤࡋ࡯࡬ࡦࠢࡏ࡭ࡸࡺࠧࢼ"):
-				raise l11l1ll
+			l1lllll1 = SelectMenu()
+			l1l = os.listdir(l11111 + l11lllll (u"ࠧࡌࡧࡼࡻࡴࡸࡤࡴࠩࢲ"))
+			l11l1111 = {}
+			l11ll111 = []
+			for file in l1l:
+				if os.path.isfile(l11111 + l11lllll (u"ࠨࡍࡨࡽࡼࡵࡲࡥࡵ࠲ࠫࢳ") + file):
+					l1llll = {l11lllll (u"ࠩࡱࡥࡲ࡫ࠧࢴ"):file,
+					 l11lllll (u"ࠪࡴࡦࡺࡨࠨࢵ"):l11111 + l11lllll (u"ࠫࡐ࡫ࡹࡸࡱࡵࡨࡸ࠵ࠧࢶ") + file}
+					l11l1111[file] = l1llll
+					l11ll111.append(l1llll[l11lllll (u"ࠬࡴࡡ࡮ࡧࠪࢷ")])
+			l11ll111.append(l11lllll (u"࠭ࡒࡦࡨࡵࡩࡸ࡮ࠠࡇ࡫࡯ࡩࠥࡒࡩࡴࡶࠪࢸ"))
+			l11ll111.append(l11lllll (u"ࠧࡆࡰࡷࡩࡷࠦࡋࡦࡻࡺࡳࡷࡪࡳࠡࡏࡤࡲࡺࡧ࡬࡭ࡻࠪࢹ"))
+			l1lllll1.add_choices(l11ll111)
+			l1l1ll1l = l1lllll1.select(l11lllll (u"ࠨࠢࡁࠤࡕࡲࡥࡢࡵࡨࠤࡘ࡫࡬ࡦࡥࡷࠤࡹ࡮ࡥࠡࡆࡨࡷ࡮ࡸࡥࡥࠢࡉ࡭ࡱ࡫࠮ࠨࢺ"))
+			if l1l1ll1l == l11lllll (u"ࠩࡕࡩ࡫ࡸࡥࡴࡪࠣࡊ࡮ࡲࡥࠡࡎ࡬ࡷࡹ࠭ࢻ"):
+				raise l11lll1l
 			else:
-				if l11llll == l111lll1 (u"ࠫࡊࡴࡴࡦࡴࠣࡏࡪࡿࡷࡰࡴࡧࡷࠥࡓࡡ࡯ࡷࡤࡰࡱࡿࠧࢽ"):
-					raise l111ll1
-				print(Fore.GREEN + Style.DIM + l111lll1 (u"ࠬࠦ࠾ࠡࡎࡲࡥࡩ࡯࡮ࡨࠢࡎࡩࡾࡽ࡯ࡳࡦࡶࠤ࡫ࡸ࡯࡮ࠢࡉ࡭ࡱ࡫ࠠ࠻ࠢࠪࢾ") + Style.NORMAL + l11llll)
+				if l1l1ll1l == l11lllll (u"ࠪࡉࡳࡺࡥࡳࠢࡎࡩࡾࡽ࡯ࡳࡦࡶࠤࡒࡧ࡮ࡶࡣ࡯ࡰࡾ࠭ࢼ"):
+					raise l111llll
+				print(Fore.GREEN + Style.DIM + l11lllll (u"ࠫࠥࡄࠠࡍࡱࡤࡨ࡮ࡴࡧࠡࡍࡨࡽࡼࡵࡲࡥࡵࠣࡪࡷࡵ࡭ࠡࡈ࡬ࡰࡪࠦ࠺ࠡࠩࢽ") + Style.NORMAL + l1l1ll1l)
 				time.sleep(1)
 				try:
-					with open(l11l1l1l[l11llll][l111lll1 (u"࠭ࡰࡢࡶ࡫ࠫࢿ")], l111lll1 (u"ࠧࡳࠩࣀ")) as key_file:
-						l1l1 = key_file.readlines()
-						for x in l1l1:
-							l11ll1l1.append(x.strip())
-						if l11ll1l1 == []:
-							raise l1l1l1ll
-				except l1l1l1ll:
-					print(Fore.RED + Style.NORMAL + l111lll1 (u"ࠨࠢࡁࠤࡋ࡯࡬ࡦࠢ࡬ࡷࠥࡋ࡭ࡱࡶࡼ࠲ࠥ࠭ࣁ") + Style.RESET_ALL)
+					with open(l11l1111[l1l1ll1l][l11lllll (u"ࠬࡶࡡࡵࡪࠪࢾ")], l11lllll (u"࠭ࡲࠨࢿ")) as key_file:
+						l1l11ll = key_file.readlines()
+						for x in l1l11ll:
+							l11l1ll1.append(x.strip())
+						if l11l1ll1 == []:
+							raise l1l1l11
+				except l1l1l11:
+					print(Fore.RED + Style.NORMAL + l11lllll (u"ࠧࠡࡀࠣࡊ࡮ࡲࡥࠡ࡫ࡶࠤࡊࡳࡰࡵࡻ࠱ࠤࠬࣀ") + Style.RESET_ALL)
 					continue
 			break
-		except l11l1ll:
-			print(Fore.GREEN + Style.DIM + l111lll1 (u"ࠩࠣࡂࠥࡘࡥࡧࡴࡨࡷ࡭࡯࡮ࡨࠢࡉ࡭ࡱ࡫ࠠࡍ࡫ࡶࡸ࠳࠭ࣂ"))
+		except l11lll1l:
+			print(Fore.GREEN + Style.DIM + l11lllll (u"ࠨࠢࡁࠤࡗ࡫ࡦࡳࡧࡶ࡬࡮ࡴࡧࠡࡈ࡬ࡰࡪࠦࡌࡪࡵࡷ࠲ࠬࣁ"))
 			time.sleep(1)
 			continue
-		except l111ll1:
+		except l111llll:
 			try:
-				l11ll11 = input(Fore.GREEN + Style.DIM + l111lll1 (u"ࠪࠤࡃࠦࡅ࡯ࡶࡨࡶࠥࡑࡥࡺࡹࡲࡶࡩࡹࠠࡔࡧࡳࡩࡷࡧࡴࡦࡦࠣࡦࡾࠦࡃࡰ࡯ࡰࡥࡸࠦࠨ࠭ࠫࠣ࠾ࠥ࠭ࣃ") + Fore.RESET + Style.DIM)
-				l11ll11 = l11ll11.strip()
-				l11ll11 = l11ll11.strip(l111lll1 (u"ࠫ࠱࠭ࣄ"))
-				if l11ll11 == l111lll1 (u"ࠬ࠭ࣅ") or l11ll11 == None:
-					raise l1l1l1ll
+				l1 = input(Fore.GREEN + Style.DIM + l11lllll (u"ࠩࠣࡂࠥࡋ࡮ࡵࡧࡵࠤࡐ࡫ࡹࡸࡱࡵࡨࡸࠦࡓࡦࡲࡨࡶࡦࡺࡥࡥࠢࡥࡽࠥࡉ࡯࡮࡯ࡤࡷࠥ࠮ࠬࠪࠢ࠽ࠤࠬࣂ") + Fore.RESET + Style.DIM)
+				l1 = l1.strip()
+				l1 = l1.strip(l11lllll (u"ࠪ࠰ࠬࣃ"))
+				if l1 == l11lllll (u"ࠫࠬࣄ") or l1 == None:
+					raise l1l1l11
 				else:
-					l1l1 = l11ll11.split(l111lll1 (u"࠭ࠬࠨࣆ"))
+					l1l11ll = l1.split(l11lllll (u"ࠬ࠲ࠧࣅ"))
 					print(Style.RESET_ALL)
-					for x in l1l1:
-						l11ll1l1.append(x.strip())
+					for x in l1l11ll:
+						l11l1ll1.append(x.strip())
 				break
-			except l1l1l1ll:
-				print(Fore.RED + Style.NORMAL + l111lll1 (u"ࠧࠡࡀࠣࡍࡳࡼࡡ࡭࡫ࡧࠤࡎࡴࡰࡶࡶ࠱ࠤࠬࣇ") + Style.RESET_ALL)
+			except l1l1l11:
+				print(Fore.RED + Style.NORMAL + l11lllll (u"࠭ࠠ࠿ࠢࡌࡲࡻࡧ࡬ࡪࡦࠣࡍࡳࡶࡵࡵ࠰ࠣࠫࣆ") + Style.RESET_ALL)
 				continue
-	#l11l1111 = l11l1l11()
-	l1ll1111 = 0
-	l1l11 = [l111lll1 (u"ࠣࡉࡲࡳ࡬ࡲࡥࠣࣈ")]
-	l111lll1 (u"ࠤࠥࠦࠏࠏࡥ࡯ࡩ࡬ࡲࡪࡥࡣࡩࡱ࡬ࡧࡪࡹࠠ࠾ࠢ࡞ࠫࡠࠦ࡝ࠡࡉࡲࡳ࡬ࡲࡥࠨ࠮ࠣࠫࡠࠦ࡝ࠡࡆࡸࡧࡰࡊࡵࡤ࡭ࡊࡳࠬ࠲ࠠࠨࡆࡲࡲࡪ࠭࡝ࠋࠋࡺ࡬࡮ࡲࡥࠡ࠳࠽ࠎࠎࠏࡴࡳࡻ࠽ࠎࠎࠏࠉࡦࡰࡪ࡭ࡳ࡫࡟࡮ࡧࡱࡹࠥࡃࠠࡔࡧ࡯ࡩࡨࡺࡍࡦࡰࡸࠬ࠮ࠐࠉࠊࠋࡨࡲ࡬࡯࡮ࡦࡡࡰࡩࡳࡻ࠮ࡢࡦࡧࡣࡨ࡮࡯ࡪࡥࡨࡷ࠭࡫࡮ࡨ࡫ࡱࡩࡤࡩࡨࡰ࡫ࡦࡩࡸ࠯ࠊࠊࠋࠌࡩࡳ࡭ࡩ࡯ࡧࡢࡷࡪࡲࡥࡤࡶ࡬ࡳࡳࠦ࠽ࠡࡧࡱ࡫࡮ࡴࡥࡠ࡯ࡨࡲࡺ࠴ࡳࡦ࡮ࡨࡧࡹ࠮ࠧࠡࡀࠣࡗࡪࡲࡥࡤࡶࠣࡗࡪࡧࡲࡤࡪࠣࡉࡳ࡭ࡩ࡯ࡧࡶࠤࡹࡵࠠࡖࡶ࡬ࡰ࡮ࡹࡥࠡࠪࡐࡹࡱࡺࡩࡱ࡮ࡨࠤࡘ࡫࡬ࡦࡥࡷ࡭ࡴࡴࡳࠡࡣࡵࡩࠥࡇ࡬࡭ࡱࡺࡩࡩ࠯ࠠ࠻ࠢࠪ࠭ࠏࠏࠉࠊ࡫ࡩࠤࡪࡴࡧࡪࡰࡨࡣࡸ࡫࡬ࡦࡥࡷ࡭ࡴࡴࠠ࠾࠿ࠣࠫࡠࠦ࡝ࠡࡉࡲࡳ࡬ࡲࡥࠨ࠼ࠍࠍࠎࠏࠉࡦࡰࡪ࡭ࡳ࡫࡟ࡤࡪࡲ࡭ࡨ࡫ࡳ࡜࠲ࡠࠤࡂࠦࠧ࡜ࠥࡠࠤࡌࡵ࡯ࡨ࡮ࡨࠫࠏࠏࠉࠊࠋࡶࡩࡱ࡫ࡣࡵࡧࡧࡣࡪࡴࡧࡪࡰࡨࡷ࠳ࡧࡰࡱࡧࡱࡨ࠭࠭ࡇࡰࡱࡪࡰࡪ࠭ࠩࠋࠋࠌࠍࡪࡲࡳࡦ࠼ࠍࠍࠎࠏࠉࡪࡨࠣࡩࡳ࡭ࡩ࡯ࡧࡢࡷࡪࡲࡥࡤࡶ࡬ࡳࡳࠦ࠽࠾ࠢࠪ࡟ࠥࡣࠠࡅࡷࡦ࡯ࡉࡻࡣ࡬ࡉࡲࠫ࠿ࠐࠉࠊࠋࠌࠍࡪࡴࡧࡪࡰࡨࡣࡨ࡮࡯ࡪࡥࡨࡷࡠ࠷࡝ࠡ࠿ࠣࠫࡠࠩ࡝ࠡࡆࡸࡧࡰࡊࡵࡤ࡭ࡊࡳࠬࠐࠉࠊࠋࠌࠍࡸ࡫࡬ࡦࡥࡷࡩࡩࡥࡥ࡯ࡩ࡬ࡲࡪࡹ࠮ࡢࡲࡳࡩࡳࡪࠨࠨࡆࡸࡧࡰࡊࡵࡤ࡭ࡊࡳࠬ࠯ࠊࠊࠋࠌࠍࡪࡲࡳࡦ࠼ࠍࠍࠎࠏࠉࠊ࡫ࡩࠤࡪࡴࡧࡪࡰࡨࡣࡸ࡫࡬ࡦࡥࡷ࡭ࡴࡴࠠ࠾࠿ࠣࠫࡠࠩ࡝ࠡࡉࡲࡳ࡬ࡲࡥࠨ࠼ࠍࠍࠎࠏࠉࠊࠋࡨࡲ࡬࡯࡮ࡦࡡࡦ࡬ࡴ࡯ࡣࡦࡵ࡞࠴ࡢࠦ࠽ࠡࠩ࡞ࠤࡢࠦࡇࡰࡱࡪࡰࡪ࠭ࠊࠊࠋࠌࠍࠎࠏࡳࡦ࡮ࡨࡧࡹ࡫ࡤࡠࡧࡱ࡫࡮ࡴࡥࡴ࠰ࡵࡩࡲࡵࡶࡦࠪࠪࡋࡴࡵࡧ࡭ࡧࠪ࠭ࠏࠏࠉࠊࠋࠌࡩࡱࡹࡥ࠻ࠌࠌࠍࠎࠏࠉࠊ࡫ࡩࠤࡪࡴࡧࡪࡰࡨࡣࡸ࡫࡬ࡦࡥࡷ࡭ࡴࡴࠠ࠾࠿ࠣࠫࡠࠩ࡝ࠡࡆࡸࡧࡰࡊࡵࡤ࡭ࡊࡳࠬࡀࠊࠊࠋࠌࠍࠎࠏࠉࡦࡰࡪ࡭ࡳ࡫࡟ࡤࡪࡲ࡭ࡨ࡫ࡳ࡜࠳ࡠࠤࡂࠦࠧ࡜ࠢࡠࠤࡉࡻࡣ࡬ࡆࡸࡧࡰࡍ࡯ࠨࠌࠌࠍࠎࠏࠉࠊࠋࡶࡩࡱ࡫ࡣࡵࡧࡧࡣࡪࡴࡧࡪࡰࡨࡷ࠳ࡸࡥ࡮ࡱࡹࡩ࠭࠭ࡄࡶࡥ࡮ࡈࡺࡩ࡫ࡈࡱࠪ࠭ࠏࠏࠉࠊࠋࠌࠍࡪࡲࡳࡦ࠼ࠍࠍࠎࠏࠉࠊࠋࠌ࡭࡫ࠦࡥ࡯ࡩ࡬ࡲࡪࡥࡳࡦ࡮ࡨࡧࡹ࡯࡯࡯ࠢࡀࡁࠥ࠭ࡄࡰࡰࡨࠫ࠿ࠐࠉࠊࠋࠌࠍࠎࠏࠉࡪࡨࠣࡷࡪࡲࡥࡤࡶࡨࡨࡤ࡫࡮ࡨ࡫ࡱࡩࡸࠦࠡ࠾ࠢ࡞ࡡ࠿ࠐࠉࠊࠋࠌࠍࠎࠏࠉࠊࡤࡵࡩࡦࡱࠊࠊࠋࠌࠍࠎࠏࠉࠊࡧ࡯ࡷࡪࡀࠊࠊࠋࠌࠍࠎࠏࠉࠊࠋࡵࡥ࡮ࡹࡥࠡࡇࡰࡴࡹࡿࡌࡪࡵࡷࡉࡷࡸ࡯ࡳࠌࠌࠍࡪࡾࡣࡦࡲࡷࠤࡊࡳࡰࡵࡻࡏ࡭ࡸࡺࡅࡳࡴࡲࡶ࠿ࠐࠉࠊࠋࡳࡶ࡮ࡴࡴࠩࡈࡲࡶࡪ࠴ࡒࡆࡆࠣ࠯࡙ࠥࡴࡺ࡮ࡨ࠲ࡓࡕࡒࡎࡃࡏࠤ࠰ࠦࠧࠡࡀࠣࡍࡳࡼࡡ࡭࡫ࡧࠤࡎࡴࡰࡶࡶ࠱ࠤࠬࠦࠫࠡࡕࡷࡽࡱ࡫࠮ࡓࡇࡖࡉ࡙ࡥࡁࡍࡎࠬࠎࠎࠏࠉࡤࡱࡱࡸ࡮ࡴࡵࡦࠌࠥࠦࠧࣉ")
-	l1ll1l1l = {}
-	l1l1lll1 = {l111lll1 (u"ࠪࡋࡴࡵࡧ࡭ࡧࠪ࣊"):[
-	  l111lll1 (u"ࠫࡆࡴࡹࠡࡖ࡬ࡱࡪ࠭࣋"), l111lll1 (u"ࠬࡖࡡࡴࡶࠣࡌࡴࡻࡲࠨ࣌"), l111lll1 (u"࠭ࡐࡢࡵࡷࠤ࠷࠺ࠠࡉࡱࡸࡶࡸ࠭࣍"), l111lll1 (u"ࠧࡑࡣࡶࡸࠥ࡝ࡥࡦ࡭ࠪ࣎"), l111lll1 (u"ࠨࡒࡤࡷࡹࠦࡍࡰࡰࡷ࡬࣏ࠬ"), l111lll1 (u"ࠩࡓࡥࡸࡺ࡚ࠠࡧࡤࡶ࣐ࠬ")],
-	 l111lll1 (u"ࠪࡈࡺࡩ࡫ࡅࡷࡦ࡯ࡌࡵ࣑ࠧ"):[l111lll1 (u"ࠫࡆࡴࡹࠡࡖ࡬ࡱࡪ࣒࠭")]}
-	for l111l1 in l1l11:
-		l1111l = SelectMenu()
-		l1111l.add_choices(l1l1lll1[l111l1])
-		l1l1l1l1 = l1111l.select(l111lll1 (u"ࠬࠦ࠾ࠡ࡝࣓ࠪ") + l111l1 + l111lll1 (u"࠭࡝ࠡࡈ࡬ࡲࡩࠦࡒࡦࡵࡸࡰࡹࡹࠠࡰࡨࠣ࠾ࠥ࠭ࣔ"))
-		if l1l1l1l1 == l111lll1 (u"ࠧࡂࡰࡼࠤ࡙࡯࡭ࡦࠩࣕ"):
-			l1ll1l1l[l111l1] = l111lll1 (u"ࠨࡼࠪࣖ")
-		elif l1l1l1l1 == l111lll1 (u"ࠩࡓࡥࡸࡺࠠࡉࡱࡸࡶࠬࣗ"):
-			l1ll1l1l[l111l1] = l111lll1 (u"ࠪ࡬ࠬࣘ")
-		elif l1l1l1l1 == l111lll1 (u"ࠫࡕࡧࡳࡵࠢ࠵࠸ࠥࡎ࡯ࡶࡴࡶࠫࣙ"):
-			l1ll1l1l[l111l1] = l111lll1 (u"ࠬࡪࠧࣚ")
-		elif l1l1l1l1 == l111lll1 (u"࠭ࡐࡢࡵࡷࠤ࡜࡫ࡥ࡬ࠩࣛ"):
-			l1ll1l1l[l111l1] = l111lll1 (u"ࠧࡸࠩࣜ")
-		elif l1l1l1l1 == l111lll1 (u"ࠨࡒࡤࡷࡹࠦࡍࡰࡰࡷ࡬ࠬࣝ"):
-			l1ll1l1l[l111l1] = l111lll1 (u"ࠩࡰࠫࣞ")
-		elif l1l1l1l1 == l111lll1 (u"ࠪࡔࡦࡹࡴ࡛ࠡࡨࡥࡷ࠭ࣟ"):
-			l1ll1l1l[l111l1] = l111lll1 (u"ࠫࡾ࠭࣠")
+	#l1l1111 = l1ll1111()
+	l1l11l = 0
+	l1ll1lll = [l11lllll (u"ࠢࡈࡱࡲ࡫ࡱ࡫ࠢࣇ")]
+	l1ll11 = {}
+	l111 = {l11lllll (u"ࠨࡉࡲࡳ࡬ࡲࡥࠨࣈ"):[
+	  l11lllll (u"ࠩࡄࡲࡾࠦࡔࡪ࡯ࡨࠫࣉ"), l11lllll (u"ࠪࡔࡦࡹࡴࠡࡊࡲࡹࡷ࠭࣊"), l11lllll (u"ࠫࡕࡧࡳࡵࠢ࠵࠸ࠥࡎ࡯ࡶࡴࡶࠫ࣋"), l11lllll (u"ࠬࡖࡡࡴࡶ࡛ࠣࡪ࡫࡫ࠨ࣌"), l11lllll (u"࠭ࡐࡢࡵࡷࠤࡒࡵ࡮ࡵࡪࠪ࣍"), l11lllll (u"ࠧࡑࡣࡶࡸࠥ࡟ࡥࡢࡴࠪ࣎")],
+	 l11lllll (u"ࠨࡆࡸࡧࡰࡊࡵࡤ࡭ࡊࡳ࣏ࠬ"):[l11lllll (u"ࠩࡄࡲࡾࠦࡔࡪ࡯ࡨ࣐ࠫ")]}
+	for l1ll11l in l1ll1lll:
+		l11ll11l = SelectMenu()
+		l11ll11l.add_choices(l111[l1ll11l])
+		l11l111 = l11ll11l.select(l11lllll (u"ࠪࠤࡃ࡛ࠦࠨ࣑") + l1ll11l + l11lllll (u"ࠫࡢࠦࡆࡪࡰࡧࠤࡗ࡫ࡳࡶ࡮ࡷࡷࠥࡵࡦࠡ࠼࣒ࠣࠫ"))
+		if l11l111 == l11lllll (u"ࠬࡇ࡮ࡺࠢࡗ࡭ࡲ࡫࣓ࠧ"):
+			l1ll11[l1ll11l] = l11lllll (u"࠭ࡺࠨࣔ")
+		elif l11l111 == l11lllll (u"ࠧࡑࡣࡶࡸࠥࡎ࡯ࡶࡴࠪࣕ"):
+			l1ll11[l1ll11l] = l11lllll (u"ࠨࡪࠪࣖ")
+		elif l11l111 == l11lllll (u"ࠩࡓࡥࡸࡺࠠ࠳࠶ࠣࡌࡴࡻࡲࡴࠩࣗ"):
+			l1ll11[l1ll11l] = l11lllll (u"ࠪࡨࠬࣘ")
+		elif l11l111 == l11lllll (u"ࠫࡕࡧࡳࡵ࡚ࠢࡩࡪࡱࠧࣙ"):
+			l1ll11[l1ll11l] = l11lllll (u"ࠬࡽࠧࣚ")
+		elif l11l111 == l11lllll (u"࠭ࡐࡢࡵࡷࠤࡒࡵ࡮ࡵࡪࠪࣛ"):
+			l1ll11[l1ll11l] = l11lllll (u"ࠧ࡮ࠩࣜ")
+		elif l11l111 == l11lllll (u"ࠨࡒࡤࡷࡹ࡙ࠦࡦࡣࡵࠫࣝ"):
+			l1ll11[l1ll11l] = l11lllll (u"ࠩࡼࠫࣞ")
 		else:
-			l1ll1l1l[l111l1] = l111lll1 (u"ࠬࢀࠧ࣡")
-		print(Fore.GREEN + Style.DIM + l111lll1 (u"࠭ࠠ࠿ࠢࡉ࡭ࡳࡪࡩ࡯ࡩࠣࡖࡪࡹࡵ࡭ࡶࡶࠤࡴ࡬ࠠࠨ࣢") + Style.NORMAL + l1l1l1l1 + Style.DIM + l111lll1 (u"ࠧࠡࡨࡲࡶࣣࠥ࠭") + Fore.GREEN + Style.NORMAL + l111l1 + Fore.GREEN + Style.DIM + l111lll1 (u"ࠨ࠰ࠪࣤ"))
+			l1ll11[l1ll11l] = l11lllll (u"ࠪࡾࠬࣟ")
+		print(Fore.GREEN + Style.DIM + l11lllll (u"ࠫࠥࡄࠠࡇ࡫ࡱࡨ࡮ࡴࡧࠡࡔࡨࡷࡺࡲࡴࡴࠢࡲࡪࠥ࠭࣠") + Style.NORMAL + l11l111 + Style.DIM + l11lllll (u"ࠬࠦࡦࡰࡴࠣࠫ࣡") + Fore.GREEN + Style.NORMAL + l1ll11l + Fore.GREEN + Style.DIM + l11lllll (u"࠭࠮ࠨ࣢"))
 	while True:
 		try:
-			l1llll11 = input(Fore.GREEN + Style.DIM + l111lll1 (u"ࠩࠣࡂࠥࡋ࡮ࡵࡧࡵࠤࡋ࡯࡬ࡦࠢࡑࡥࡲ࡫ࠠࡵࡱࠣࡗࡹࡵࡲࡦࠢࡆࡳࡲࡨ࡯ࠡࡎ࡬ࡷࡹࠦ࠺ࠡࠩࣥ") + Style.RESET_ALL + Style.DIM)
-			if l1llll11 == l111lll1 (u"ࣦࠪࠫ") or l1llll11 == None:
-				raise l1l1l1ll
+			l1l1l1l = input(Fore.GREEN + Style.DIM + l11lllll (u"ࠧࠡࡀࠣࡉࡳࡺࡥࡳࠢࡉ࡭ࡱ࡫ࠠࡏࡣࡰࡩࠥࡺ࡯ࠡࡕࡷࡳࡷ࡫ࠠࡄࡱࡰࡦࡴࠦࡌࡪࡵࡷࠤ࠿ࣣࠦࠧ") + Style.RESET_ALL + Style.DIM)
+			if l1l1l1l == l11lllll (u"ࠨࠩࣤ") or l1l1l1l == None:
+				raise l1l1l11
 			else:
-				if l111lll1 (u"ࠫ࠳ࡺࡸࡵࠩࣧ") not in l1llll11:
-					l1llll11 = l1llll11.strip() + l111lll1 (u"ࠬ࠴ࡴࡹࡶࠪࣨ")
-				l1ll1l11 = l1l111l1 + l111lll1 (u"࠭ࡃࡰ࡯ࡥࡳࡑ࡯ࡳࡵࡵ࠲ࣩࠫ") + l1llll11
-				if os.path.isfile(l1ll1l11):
-					raise l111111
+				if l11lllll (u"ࠩ࠱ࡸࡽࡺࠧࣥ") not in l1l1l1l:
+					l1l1l1l = l1l1l1l.strip() + l11lllll (u"ࠪ࠲ࡹࡾࡴࠨࣦ")
+				l1111ll = l11111 + l11lllll (u"ࠫࡈࡵ࡭ࡣࡱࡏ࡭ࡸࡺࡳ࠰ࠩࣧ") + l1l1l1l
+				if os.path.isfile(l1111ll):
+					raise l1l1l11l
 			break
-		except l111111:
-			l111 = input(Fore.RED + Style.DIM + l111lll1 (u"ࠧࠡࡀࠣࡊ࡮ࡲࡥࠡࡃ࡯ࡶࡪࡧࡤࡺࠢࡈࡼ࡮ࡹࡴࡴ࠰ࠣࡓࡻ࡫ࡲࡸࡴ࡬ࡸࡪࡅࠠ࡜ࠢࠪ࣪") + Fore.GREEN + Style.DIM + l111lll1 (u"ࠨࡻࡨࡷࠬ࣫") + Fore.RED + Style.DIM + l111lll1 (u"ࠩ࠲ࡲࡴࠦ࡝ࠡ࠼ࠣࠫ࣬") + Style.RESET_ALL + Style.DIM)
-			if l111.lower() == l111lll1 (u"ࠪࡽࡪࡹ࣭ࠧ"):
-				print(Fore.RED + Style.DIM + l111lll1 (u"ࠫࠥࡄࠠࡐࡸࡨࡶࡼࡸࡩࡵ࡫ࡱ࡫ࠥࡌࡩ࡭ࡧ࠱࣮ࠫ"))
-				os.system(l111lll1 (u"ࠬࡸ࡭࣯ࠡࠩ") + l1ll1l11)
+		except l1l1l11l:
+			l1111 = input(Fore.RED + Style.DIM + l11lllll (u"ࠬࠦ࠾ࠡࡈ࡬ࡰࡪࠦࡁ࡭ࡴࡨࡥࡩࡿࠠࡆࡺ࡬ࡷࡹࡹ࠮ࠡࡑࡹࡩࡷࡽࡲࡪࡶࡨࡃࠥࡡࠠࠨࣨ") + Fore.GREEN + Style.DIM + l11lllll (u"࠭ࡹࡦࡵࣩࠪ") + Fore.RED + Style.DIM + l11lllll (u"ࠧ࠰ࡰࡲࠤࡢࠦ࠺ࠡࠩ࣪") + Style.RESET_ALL + Style.DIM)
+			if l1111.lower() == l11lllll (u"ࠨࡻࡨࡷࠬ࣫"):
+				print(Fore.RED + Style.DIM + l11lllll (u"ࠩࠣࡂࠥࡕࡶࡦࡴࡺࡶ࡮ࡺࡩ࡯ࡩࠣࡊ࡮ࡲࡥ࠯ࠩ࣬"))
+				os.system(l11lllll (u"ࠪࡶࡲ࣭ࠦࠧ") + l1111ll)
 				break
 			else:
 				continue
-		except l1l1l1ll:
-			print(Fore.RED + Style.NORMAL + l111lll1 (u"࠭ࠠ࠿ࠢࡌࡲࡻࡧ࡬ࡪࡦࠣࡍࡳࡶࡵࡵ࠰ࣰࠣࠫ") + Style.RESET_ALL)
+		except l1l1l11:
+			print(Fore.RED + Style.NORMAL + l11lllll (u"ࠫࠥࡄࠠࡊࡰࡹࡥࡱ࡯ࡤࠡࡋࡱࡴࡺࡺ࠮࣮ࠡࠩ") + Style.RESET_ALL)
 			continue
-	for ll in l11ll1l1:
+	for l111lll in l11l1ll1:
 		try:
-			for l111l1 in l1l11:
-				if l111l1 == l111lll1 (u"ࠧࡈࡱࡲ࡫ࡱ࡫ࣱࠧ"):
-					print(Fore.GREEN + Style.DIM + l111lll1 (u"ࠨࠢࡁࠤࡠࡍ࡯ࡰࡩ࡯ࡩࡢࠦࡓࡤࡴࡤࡴ࡮ࡴࡧࠡࡍࡨࡽࡼࡵࡲࡥࠢ࠽ࠤࣲࠬ") + Style.BRIGHT + str(ll) + Style.RESET_ALL)
+			for l1ll11l in l1ll1lll:
+				if l1ll11l == l11lllll (u"ࠬࡍ࡯ࡰࡩ࡯ࡩ࣯ࠬ"):
+					print(Fore.GREEN + Style.DIM + l11lllll (u"࠭ࠠ࠿ࠢ࡞ࡋࡴࡵࡧ࡭ࡧࡠࠤࡘࡩࡲࡢࡲ࡬ࡲ࡬ࠦࡋࡦࡻࡺࡳࡷࡪࠠ࠻ࣰࠢࠪ") + Style.BRIGHT + str(l111lll) + Style.RESET_ALL)
 					time.sleep(1)
-					l11 = l11l1lll(l111lll1 (u"ࠩࡶ࡭ࡹ࡫࠺ࡱࡣࡶࡸࡪࡨࡩ࡯࠰ࡦࡳࡲࠦࡩ࡯ࡶࡨࡼࡹࡀࠧࣳ") + ll)
-					l1ll1 = threading.Thread(name=l111lll1 (u"ࠪࡷࡨࡸࡡࡱ࡫ࡱ࡫ࡤࡺࡨࡳࡧࡤࡨࠬࣴ"), target=(l11.l1ll11l1), args=(l1ll1l1l[l111l1]))
-					l1ll1.start()
-					while l1ll1.is_alive():
-						if not l11.l1ll1ll:
-							l11.l1l1ll1l()
-					print(Fore.GREEN + Style.DIM + l111lll1 (u"ࠫࡡࡴࠠ࠿ࠢ࡞ࡋࡴࡵࡧ࡭ࡧࡠࠤࡘ࡫ࡡࡳࡥ࡫ࠤࡈࡵ࡭ࡱ࡮ࡨࡸࡪࡪ࠮ࠡࡖࡲࡸࡦࡲࠠࡖࡔࡏࡷࠥࡌ࡯ࡶࡰࡧࠤ࠿ࠦࠧࣵ") + Style.NORMAL + str(len(l1l1llll)))
-					l111lll1 (u"ࠧࠨࠢࠋࠋࠌࠍࠎࠏࡩࡧࠢࡨࡲ࡬࡯࡮ࡦࠢࡀࡁࠥ࠭ࡄࡶࡥ࡮ࡈࡺࡩ࡫ࡈࡱࠪ࠾ࠏࠏࠉࠊࠋࠌࡴࡷ࡯࡮ࡵࠪࡉࡳࡷ࡫࠮ࡈࡔࡈࡉࡓࠦࠫࠡࡕࡷࡽࡱ࡫࠮ࡅࡋࡐࠤ࠰ࠦࠧࠡࡀࠣ࡟ࡉࡻࡣ࡬ࡆࡸࡧࡰࡍ࡯࡞ࠢࡖࡧࡷࡧࡰࡪࡰࡪࠤࡐ࡫ࡹࡸࡱࡵࡨࠥࡀࠠࠨࠢ࠮ࠤࡘࡺࡹ࡭ࡧ࠱ࡆࡗࡏࡇࡉࡖࠣ࠯ࠥࡹࡴࡳࠪ࡮ࡩࡾࡽ࡯ࡳࡦࠬࠤ࠰ࠦࡓࡵࡻ࡯ࡩ࠳ࡘࡅࡔࡇࡗࡣࡆࡒࡌࠪࠌࠌࠍࠎࠏࠉࡵ࡫ࡰࡩ࠳ࡹ࡬ࡦࡧࡳࠬ࠶࠯ࠊࠊࠋࠌࠍࠎࡊࡵࡤ࡭ࡇࡹࡨࡱࡇࡰࡕࡦࡶࡦࡶࡥࡳࡑࡥ࡮ࡪࡩࡴ࠯ࡵࡨࡸࡐ࡫ࡹࡸࡱࡵࡨ࠭ࡱࡥࡺࡹࡲࡶࡩ࠯ࠊࠊࠋࠌࠍࠎࡹࡣࡳࡣࡳࡩࡤࡶࡲࡰࡥࡨࡷࡸࠦ࠽ࠡࡶ࡫ࡶࡪࡧࡤࡪࡰࡪ࠲࡙࡮ࡲࡦࡣࡧࠬࡳࡧ࡭ࡦ࠿ࠪࡷࡨࡸࡡࡱ࡫ࡱ࡫ࡤࡺࡨࡳࡧࡤࡨࠬ࠲ࠠࡵࡣࡵ࡫ࡪࡺ࠽ࠩࡆࡸࡧࡰࡊࡵࡤ࡭ࡊࡳࡘࡩࡲࡢࡲࡨࡶࡔࡨࡪࡦࡥࡷ࠲ࡸࡩࡲࡢࡲࡨ࠭࠮ࠐࠉࠊࠋࠌࠍࡸࡩࡲࡢࡲࡨࡣࡵࡸ࡯ࡤࡧࡶࡷ࠳ࡹࡴࡢࡴࡷࠬ࠮ࠐࠉࠊࠋࠌࠍࡼ࡮ࡩ࡭ࡧࠣࡷࡨࡸࡡࡱࡧࡢࡴࡷࡵࡣࡦࡵࡶ࠲࡮ࡹ࡟ࡢ࡮࡬ࡺࡪ࠮ࠩ࠻ࠌࠌࠍࠎࠏࠉࠊࡆࡸࡧࡰࡊࡵࡤ࡭ࡊࡳࡘࡩࡲࡢࡲࡨࡶࡔࡨࡪࡦࡥࡷ࠲ࡦࡴࡩ࡮ࡣࡷࡩࡩࡥ࡬ࡰࡣࡧ࡭ࡳ࡭ࠨࠪࠌࠌࠍࠎࠏࠉࠣࠤࣶࠥ")
-					print(Fore.GREEN + Style.DIM + l111lll1 (u"࠭࡜࡯ࠢࡁࠤࡠࡊࡵࡤ࡭ࡇࡹࡨࡱࡇࡰ࡟ࠣࡗࡪࡧࡲࡤࡪࠣࡇࡴࡳࡰ࡭ࡧࡷࡩࡩ࠴ࠠࡕࡱࡷࡥࡱࠦࡕࡓࡎࡶࠤࡋࡵࡵ࡯ࡦࠣ࠾ࠥ࠭ࣷ") + Style.NORMAL + str(len(l1l1llll)))
+					l1l11l1l = l1llllll(l11lllll (u"ࠧࡴ࡫ࡷࡩ࠿ࡶࡡࡴࡶࡨࡦ࡮ࡴ࠮ࡤࡱࡰࠤ࡮ࡴࡴࡦࡺࡷ࠾ࣱࠬ") + l111lll)
+					l1l1 = threading.Thread(name=l11lllll (u"ࠨࡵࡦࡶࡦࡶࡩ࡯ࡩࡢࡸ࡭ࡸࡥࡢࡦࣲࠪ"), target=(l1l11l1l.l11), args=(l1ll11[l1ll11l]))
+					l1l1.start()
+					while l1l1.is_alive():
+						if not l1l11l1l.l1ll1l11:
+							l1l11l1l.l1l1lll()
+					print(Fore.GREEN + Style.DIM + l11lllll (u"ࠩ࡟ࡲࠥࡄࠠ࡜ࡉࡲࡳ࡬ࡲࡥ࡞ࠢࡖࡩࡦࡸࡣࡩࠢࡆࡳࡲࡶ࡬ࡦࡶࡨࡨ࠳ࠦࡔࡰࡶࡤࡰ࡛ࠥࡒࡍࡵࠣࡊࡴࡻ࡮ࡥࠢ࠽ࠤࠬࣳ") + Style.NORMAL + str(len(l1ll)))
+					print(Fore.GREEN + Style.DIM + l11lllll (u"ࠪࡠࡳࠦ࠾ࠡ࡝ࡇࡹࡨࡱࡄࡶࡥ࡮ࡋࡴࡣࠠࡔࡧࡤࡶࡨ࡮ࠠࡄࡱࡰࡴࡱ࡫ࡴࡦࡦ࠱ࠤ࡙ࡵࡴࡢ࡮࡙ࠣࡗࡒࡳࠡࡈࡲࡹࡳࡪࠠ࠻ࠢࠪࣴ") + Style.NORMAL + str(len(l1ll)))
 		except KeyboardInterrupt:
-			print(Fore.GREEN + Style.DIM + l111lll1 (u"ࠧࠡ࡞ࡱࠤࡃࠦࡓ࡬࡫ࡳࡴ࡮ࡴࡧࠡࡔࡨࡷࡹࠦ࡯ࡧࠢࡷ࡬ࡪࠦࡋࡦࡻࡺࡳࡷࡪࡳ࠯ࠩࣸ"))
+			print(Fore.GREEN + Style.DIM + l11lllll (u"ࠫࠥࡢ࡮ࠡࡀࠣࡗࡰ࡯ࡰࡱ࡫ࡱ࡫ࠥࡘࡥࡴࡶࠣࡳ࡫ࠦࡴࡩࡧࠣࡏࡪࡿࡷࡰࡴࡧࡷ࠳࠭ࣵ"))
 			break
-	print(Fore.GREEN + Style.NORMAL + l111lll1 (u"ࠨࠢࡁࠤࡘࡩࡲࡢࡲ࡬ࡲ࡬ࠦࡃࡰ࡯ࡳࡰࡪࡺࡥ࠯ࣹࠢࠪ") + Fore.CYAN + Style.BRIGHT + str(len(l1l1llll)) + Fore.GREEN + Style.NORMAL + l111lll1 (u"࡙ࠩࠣࡗࡒࡳࠡࡈࡲࡹࡳࡪ࠮ࠨࣺ"))
-	l1l1llll = l11l1111.l1111(l1l1llll)
-	print(Fore.GREEN + Style.NORMAL + l111lll1 (u"ࠪࠤࡃࠦࡃ࡭ࡧࡤࡲ࡮ࡴࡧࠡࡗࡕࡐࡸࠦࠦࠡࡔࡨࡱࡴࡼࡩ࡯ࡩࠣࡈࡺࡶ࡬ࡪࡥࡤࡸࡪࡹ࠮ࠡࠩࣻ") + Fore.CYAN + Style.BRIGHT + str(len(l1l1llll)) + Fore.GREEN + Style.NORMAL + l111lll1 (u"࡛ࠫࠥࡒࡍࡵࠣࡖࡪࡳࡡࡪࡰ࠱ࠫࣼ"))
-	l1llll1l = input(Fore.GREEN + Style.BRIGHT + l111lll1 (u"ࠬࠦ࠾ࠡࡒࡵࡩࡸࡹࠠࡆࡰࡷࡩࡷࠦࡴࡰࠢࡅࡩ࡬࡯࡮ࠡࡎࡨࡩࡨ࡮ࡩ࡯ࡩ࠱ࠫࣽ") + Style.RESET_ALL)
-	l11111 = l1lll1(l1ll1l11)
-	l11111.l1ll(l1l1llll)
+	print(Fore.GREEN + Style.NORMAL + l11lllll (u"ࠬࠦ࠾ࠡࡕࡦࡶࡦࡶࡩ࡯ࡩࠣࡇࡴࡳࡰ࡭ࡧࡷࡩ࠳ࣶࠦࠧ") + Fore.CYAN + Style.BRIGHT + str(len(l1ll)) + Fore.GREEN + Style.NORMAL + l11lllll (u"࠭ࠠࡖࡔࡏࡷࠥࡌ࡯ࡶࡰࡧ࠲ࠬࣷ"))
+	l1ll = list(dict.fromkeys(l1ll))
+	print(Fore.GREEN + Style.NORMAL + l11lllll (u"ࠧࠡࡀࠣࡇࡱ࡫ࡡ࡯࡫ࡱ࡫࡛ࠥࡒࡍࡵࠣࠪࠥࡘࡥ࡮ࡱࡹ࡭ࡳ࡭ࠠࡅࡷࡳࡰ࡮ࡩࡡࡵࡧࡶ࠲ࠥ࠭ࣸ") + Fore.CYAN + Style.BRIGHT + str(len(l1ll)) + Fore.GREEN + Style.NORMAL + l11lllll (u"ࠨࠢࡘࡖࡑࡹࠠࡓࡧࡰࡥ࡮ࡴ࠮ࠨࣹ"))
+	l111ll1 = input(Fore.GREEN + Style.BRIGHT + l11lllll (u"ࠩࠣࡂࠥࡖࡲࡦࡵࡶࠤࡊࡴࡴࡦࡴࠣࡸࡴࠦࡂࡦࡩ࡬ࡲࠥࡒࡥࡦࡥ࡫࡭ࡳ࡭࠮ࠨࣺ") + Style.RESET_ALL)
+	l11l1lll = l111lll1(l1111ll)
+	l11l1lll.l1l1111l(l1ll)
 except KeyboardInterrupt:
 	try:
-		l111llll = 0
-		with open(l11111.filename, l111lll1 (u"࠭ࡲࠨࣾ")) as l1llllll:
-			for line in l1llllll:
-				l111llll = l111llll + 1
-		print(Fore.RED + Style.NORMAL + l111lll1 (u"ࠧ࡝ࡰࠣࡂࠥࡇࡢࡰࡴࡷ࡭ࡳ࡭ࠠࡑࡴࡲ࡫ࡷࡧ࡭࠯ࠩࣿ"))
-		print(Fore.RED + Style.DIM + l111lll1 (u"ࠨࠢࡁࠤࡈࡵ࡭ࡣࡱࡶࠤࡈࡵ࡬࡭ࡧࡦࡸࡪࡪࠠ࠻ࠢࠪऀ") + str(l111llll))
-		os.system(l111lll1 (u"ࠩ࡮࡭ࡱࡲࠠࠨँ") + str(os.getpid()))
+		l1llll11 = 0
+		with open(l11l1lll.filename, l11lllll (u"ࠪࡶࠬࣻ")) as l11l111l:
+			for line in l11l111l:
+				l1llll11 = l1llll11 + 1
+		print(Fore.RED + Style.NORMAL + l11lllll (u"ࠫࡡࡴࠠ࠿ࠢࡄࡦࡴࡸࡴࡪࡰࡪࠤࡕࡸ࡯ࡨࡴࡤࡱ࠳࠭ࣼ"))
+		print(Fore.RED + Style.DIM + l11lllll (u"ࠬࠦ࠾ࠡࡅࡲࡱࡧࡵࡳࠡࡅࡲࡰࡱ࡫ࡣࡵࡧࡧࠤ࠿ࠦࠧࣽ") + str(l1llll11))
+		os.system(l11lllll (u"࠭࡫ࡪ࡮࡯ࠤࠬࣾ") + str(os.getpid()))
 	except:
-		print(Fore.RED + Style.DIM + l111lll1 (u"ࠪࠤࡃࠦࡃࡰ࡯ࡥࡳࡸࠦࡃࡰ࡮࡯ࡩࡨࡺࡥࡥࠢ࠽ࠤ࠵࠭ं"))
-		os.system(l111lll1 (u"ࠫࡰ࡯࡬࡭ࠢࠪः") + str(os.getpid()))
+		print(Fore.RED + Style.DIM + l11lllll (u"ࠧࠡࡀࠣࡇࡴࡳࡢࡰࡵࠣࡇࡴࡲ࡬ࡦࡥࡷࡩࡩࠦ࠺ࠡ࠲ࠪࣿ"))
+		os.system(l11lllll (u"ࠨ࡭࡬ࡰࡱࠦࠧऀ") + str(os.getpid()))
 		exit()

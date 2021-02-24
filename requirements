@@ -2,4 +2,4 @@ colorama
 requests
 bs4
 cssselect
-prompt_toolkit==1.0.14
+prompt_toolkit==1.0.15

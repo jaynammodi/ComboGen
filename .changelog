@@ -1,8 +1,12 @@
-**v4.0**
+**v4.2**
+
+	- Fixed Error caused by Obfuscation, AKA Error #420.
+
+**v4.1**
 
 	- Migrated Authentication Servers.
 
-	**v4.0**
+**v4.0**
 
 	- Google Scraping Fixed.
 	- Added Login & Authentication System.
